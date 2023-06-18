@@ -8,13 +8,19 @@
         <title>JAMJAM</title>
     </head>
 
-    <body bgcolor="ivory">
-       <h2>JAMJAM</h2> 
-       
-       <img src="logo\logo.png" alt="JAMJAM logo" width="350" height="350">
+    <style>
+        body {background-color: ivory;}
+        img.relative { position: static; }
+        button.relative { position: relative; top: 50px;}
+    </style>
 
-       <button type="button" onclick="location.href='GameChoose.html'">게임 선택</button>
-       <button type="button" onclick="location.href='GameExplain.html'">게임 설명</button>
+    <body>
+       <center>
+       <div><img src="logo\logo.png" alt="JAMJAM logo" width="350" height="350"></div>
 
+       <div><button type="button" style="width: 70%;height: 70%;" onclick="location.href='GameChoose.html'">게임 선택</button></div>
+
+       <div><button type="button" style="width: 70%;height: 70%;" onclick="location.href='GameExplain.html'">게임 설명</button></div>
+       </center>
     </body>
 </html>
