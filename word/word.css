@@ -1,11 +1,3 @@
 body{
     background-color: ivory;
 }
-
-.numpad{
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    .button{font-size: 25px; width: 45px; height:45px;}
-}
