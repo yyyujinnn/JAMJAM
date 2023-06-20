@@ -10,8 +10,19 @@
 
     <style>
        body {background-color: #fff6ec; }
-       section {margin-top: 300px;}
-    
+       section {margin-top: 200px;}
+
+       @font-face{
+            font-family:'CookieRun Black'; /*글꼴*/
+            src: local('CookieRun Black'),
+                url('CookieRun Black.eot'),
+                url('CookieRun Black.woff') format('woff'),
+                url('CookieRun Black.ttf') format('truetype');
+        }
+
+        section { font-family: 'CookieRun Black', sans-serif; 
+                  border: 3px dotted; padding: 10px;
+                  background-color: #fff8dc;}
 
     </style>
 
@@ -22,7 +33,8 @@
 
         <section>
             <center>
-                <네글자 퀴즈>
+                <h1>< 네글자 퀴즈 ></h1>
+                <img src="word_icon.png" alt="word icon" width="120 " height="130">
                 <br>
                 <br>
                 네글자 중 앞의 두글자만 주어집니다.
@@ -35,6 +47,8 @@
                 ex. 김치OO
                 <br>
                 김치찌개, 김치볶음, 김치
+                <br>
+                <br>
             </center>
         </section>
     </body>
