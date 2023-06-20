@@ -3,12 +3,8 @@
 //let selectString = stringArr[Math.random() * stringArr.length];
 
 // focus가 다음 input 박스로 자동 이동
-$(function() {
-    $(".password").keyup (function () {
-        var intLimit = $(this).attr("maxlength");
-        if (this.value.length >= intLimit) {
-            $(this).next(".password").focus();
-            return false;
-        }
-    });
+$("#block1").on("keyup",function(){
+	if(this.value.length == 1){
+		$("#block2").focus();
+	}	
 });
