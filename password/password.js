@@ -4,6 +4,7 @@
 
 // focus가 다음 input 박스로 자동 이동
 $("#block1").on("keyup",function(){
+    
 	if(this.value.length == 1){
 		$("#block2").focus();
 	}	
