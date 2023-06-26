@@ -2,29 +2,12 @@
 
 header {margin-left: 20px;}
 
-section {position: relative; top: 50px; text-align: center;}
+section {position: relative; top: 0px; text-align: center;}
 
 body{
     background-color: #fff6ec;
     font-family: 'Jua', sans-serif; 
     font-size: 20px;
-}
-
-
-
-.password{
-    margin-top: -130px;
-}
-
-.password input { width: 3.5rem; height: 3.5rem; border-radius: 10px;}
-
-.password input ~ input { margin-left:.6rem;}
-
-
-.numpad{
-    margin-top: 80px;
-    margin-left: 5%;
-    .button{font-size: 30px; width: 60px; height:60px; border-radius: 10px;}
 }
 
 .title{
@@ -38,4 +21,4 @@ body{
     font-size: 20px; background-color: white;
 }
 
-button {font-family: 'Jua', sans-serif; font-size: 15px; width: 80px; height: 30px; border-radius: 10px;}
+button {font-family: 'Jua', sans-serif; font-size: 20px; width: 120px; height: 70px; border-radius: 10px;}
