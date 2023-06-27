@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인물 퀴즈</title>
+    <link href="picture.css" rel="stylesheet">
+    <script src="picture.js"></script>
+</head>
+
+<body>
+    <header>
+        <input type="image" src="..\logo\logo_width.png" alt="JAMJAM logo" width="160" height="70"  onclick="location.href='../index.html'">
+    </header>
+
+    <section class="intro">
+            <h1 style="font-size: 50px;">인물 퀴즈</h1>
+            <p>주어진 사진을 보고 이름을 맞춰라</p>
+            <p>제한시간은 3초입니다</p>
+    </section>
+
+    <section class="count">
+         <p>남은 시간</p>
+         <span id="sec">3</span>
+    </section>
+
+    <section>
+        <div>
+            <img id="picture" src="sample.jpg" alt="sample" style="width: 200px;">
+        </div>
+        <button type="button" id="start" onclick="start()"> 시작 </button>
+    </section>
+
+</body>
+</html>
