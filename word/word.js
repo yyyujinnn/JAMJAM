@@ -3,6 +3,12 @@ function start()
     // 3초 타이머
     var time = 3;
     var sec="";
+
+    // countdown.mp3 재생
+    var audio1 = new Audio("../audio/countdown.mp3");
+    audio1.loop = false; // 반복재생하지 않음
+    audio1.volume = 0.5; // 음량 설정
+    audio1.play(); // sound1.mp3 재생
       
     //setInterval(함수, 시간) : 주기적인 실행
     var timer = setInterval( function() {
@@ -14,6 +20,7 @@ function start()
         //타임아웃 
         if (time < 0) {
             clearInterval(timer); // setInterval() 실행 끝
+            audio1.pause();
             // 다시 랜덤 추출
         }
     }, 700 );
