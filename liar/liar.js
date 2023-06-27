@@ -1,6 +1,6 @@
 //인원수 4명일때 일반3 라이어1
 function ver4(){
-    document.getElementById("count").innerHTML = "라이어는 1명입니다.";
+    document.getElementById("count").innerHTML = "라이어는 1명 입니다.";
   
    // btn 숨기기 (display: none)
     btn4.style.display = 'none';
@@ -18,13 +18,13 @@ function ver4(){
     var theme = document.getElementById("theme");
     var random_themes = Math.floor(Math.random() * themes.length); // 랜덤 정수 추출
         
-    theme.innerHTML = themes[random_themes];
+    theme.innerHTML = "제시어 주제 : " + themes[random_themes];
     theme.style.display ='block'; //제시어주제 칸 보이기
 }
 
 //인원수 5명일때 일반4 라이어1
 function ver5(){
-    document.getElementById("count").innerHTML = "라이어는 1명입니다.";
+    document.getElementById("count").innerHTML = "라이어는 1명 입니다.";
 
     // btn 숨기기 (display: none)
     btn4.style.display = 'none';
@@ -38,7 +38,7 @@ function ver5(){
 
 //인원수 6명일때 일반4 라이어2
 function ver6(){
-    document.getElementById("count").innerHTML = "라이어는 2명입니다.";
+    document.getElementById("count").innerHTML = "라이어는 2명 입니다.";
 
     // btn 숨기기 (display: none)
     btn4.style.display = 'none';
@@ -52,7 +52,7 @@ function ver6(){
 
 //인원수 7명일때 일반5 라이어2
 function ver7(){
-    document.getElementById("count").innerHTML = "라이어는 2명입니다.";
+    document.getElementById("count").innerHTML = "라이어는 2명 입니다.";
 
     // btn 숨기기 (display: none)
     btn4.style.display = 'none';
@@ -66,7 +66,7 @@ function ver7(){
 
 //인원수 8명일때 일반6 라이어2
 function ver8(){
-    document.getElementById("count").innerHTML = "라이어는 2명입니다.";
+    document.getElementById("count").innerHTML = "라이어는 2명 입니다.";
 
     // btn 숨기기 (display: none)
     btn4.style.display = 'none';
@@ -80,7 +80,7 @@ function ver8(){
 
 //인원수 9명일때 일반6 라이어3
 function ver9(){
-    document.getElementById("count").innerHTML = "라이어는 3명입니다.";
+    document.getElementById("count").innerHTML = "라이어는 3명 입니다.";
 
     // btn 숨기기 (display: none)
     btn4.style.display = 'none';
@@ -94,7 +94,7 @@ function ver9(){
 
 //인원수 10명일때 일반7 라이어3
 function ver10(){
-    document.getElementById("count").innerHTML = "라이어는 3명입니다.";
+    document.getElementById("count").innerHTML = "라이어는 3명 입니다.";
 
     // btn 숨기기 (display: none)
     btn4.style.display = 'none';
