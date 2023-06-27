@@ -14,7 +14,8 @@ $("#btn").click(function() {
     $("#randomNumber").val(randomNumber);
 
     // 게임 영역 생성
-    $("#gameArea").append("<p>1 ~ 100까지 랜덤한 숫자를 생성되었습니다. 숫자를 입력하여 맞춰주세요.</p>");
+    $("#gameArea").append("<p><br>0 ~ 100까지 랜덤한 숫자를 생성되었습니다.</p>");
+    $("#gameArea").append("<p>숫자를 입력하여 맞춰주세요.</p>");
     $("#gameArea").append("<input type='text' id='txtAnswer'></input>  ");
     $("#gameArea").append("<button id='btnAnswer' onclick='randomAnswerSubmission();'>정답제출</button>");
 
