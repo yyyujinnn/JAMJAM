@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+body {background-color: #fff6ec;}
+header {margin-left: 20px;}
+.intro {margin-top: 0px;}
+section {margin-top: 20px; text-align: center;
+        font-family: 'Jua', sans-serif; 
+        border: 2px solid black; padding: 10px; border-radius: 10px;
+        font-size: 20px; background-color: white;}
+button {font-family: 'Jua', sans-serif; font-size: 20px; width: 80px; height: 40px; border-radius: 10px;}

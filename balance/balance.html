@@ -4,28 +4,33 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <link href="balance.css" rel="stylesheet">
+        <title>JAMJAM_밸런스게임</title>
 
-        <title>JAMJAM</title>
-
+        <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
         
     </head>
-
-    <style>
-        body {background-color: #fff6ec;}
-        header {margin-left: 20px;}
-        section {margin-top: 250px;}
-    </style>
     
     <body>
      <header>
         <input type="image" src="..\logo\logo_width.png" alt="JAMJAM logo" width="160" height="70"  onclick="location.href='../index.html'">
     </header>
 
+    <section class="intro">
+        <h1 style="font-size: 50px;">밸런스 게임</h1>
+        <p>주어진 두 상황을 친구와 토론하며 즐겨보세요</p>
+    </section>
+
     <section>
         <center>
-        
-
+            <p id="balance1"> ? </p>
+            VS
+            <p id="balance2"> ? </p>
         </center>
+        <br>
+        <button type="button" id="start" onclick="start()"> 시작 </button>
     </section>
+
+    <script src="balance.js"></script>
     </body>
 </html>
