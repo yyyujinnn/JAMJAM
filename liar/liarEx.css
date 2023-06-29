@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+body {
+    background-color: #fff6ec; 
+    font-family: 'Jua', sans-serif;
+}
+
+header {margin-left: 20px;}
+
+#sublogo {
+    width: 30%;
+}
+
+.content { 
+    border: 3px dotted; padding: 10px;
+    background-color: #fff8dc;
+    text-align: center;
+    margin: 15% auto;
+    font-size: 15px;
+}
+
+.content img {
+    margin: 10px;
+    width: 30%;
+}
+
+.content p{
+    line-height: 30px;
+}
+
+.content span {
+    color: lightcoral;
+    margin-top: 30px;
+}
+
+/* Tablet */
+@media (min-width:768px){
+    #sublogo {
+        width: 25%;
+    }
+
+    .content {
+        font-size: 18px;
+        margin: 5% auto;
+    }
+
+    .content img {
+        width: 20%;
+    }
+
+}
+
+/* Desktop */
+@media (min-width:992px){
+    #sublogo {
+        width: 15%;
+    }
+
+    .content {
+        font-size: 18px;
+        margin: 3% auto;
+    }
+
+    .content img {
+        width: 15%;
+    }
+
+}

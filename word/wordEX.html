@@ -6,31 +6,20 @@
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
         <title>네글자 퀴즈 설명</title>
+
+        <link href="wordEX.css" rel="stylesheet">
     </head>
-
-    <style>
-    
-    @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
-    body {background-color: #fff6ec; }
-    section {margin-top: 80px;}
-    header {margin-left: 20px;}
-
-    section { font-family: 'Jua', sans-serif; 
-            border: 3px dotted; padding: 10px;
-            font-size: 18px; background-color: #fff8dc;}
-    </style>
 
     <body>
         <header>
-            <input type="image" src="..\logo\logo_width.png" alt="JAMJAM logo" width="160" height="70"  onclick="location.href='../index.html'">
+            <input id="sublogo" type="image" src="..\logo\logo_width.png" alt="JAMJAM logo" onclick="location.href='../index.html'">
         </header>
 
         <section>
-            <center>
-                <h1>< 네글자 퀴즈 ></h1>
-                <img src="word_icon.png" alt="word icon" width="120 " height="130">
-                <br>
-                <br>
+            <div class="content">
+                <h1>&lt; 네글자 퀴즈 &gt;</h1>
+                <img src="word_icon.png" alt="word icon">
+                <p>
                 네글자 중 앞의 두글자만 주어집니다.
                 <br>
                 주어진 두 글자를 보고 3초안에 단어가 되도록 
@@ -41,8 +30,7 @@
                 ex. 김치OO
                 <br>
                 김치찌개, 김치볶음, 김치나베
-                <br>
-                <br>
-            </center>
+                </p>
+            </div>
         </section>
     </body>

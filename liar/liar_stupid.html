@@ -12,7 +12,7 @@
     
     <body>
      <header>
-        <input type="image" src="..\logo\logo_width.png" alt="JAMJAM logo" width="160" height="70"  onclick="location.href='../index.html'">
+        <input id="sublogo" type="image" src="..\logo\logo_width.png" alt="JAMJAM logo" onclick="location.href='../index.html'">
     </header>
 
     <section class="intro">
@@ -22,11 +22,10 @@
         <p>라이어를 찾아라</p>
     </section>
 
-    <section>
-        <center>
+        <div class="game-content">
             <h3 id="count">게임 인원 정하기</h3>
             <p class="theme" id="theme">제시어 주제</p>
-            <div class="count">
+            <div class="count" id="btn">
                 <button type="button" id="btn4" onclick="ver4()"> 4 </button>
                 <button type="button" id="btn5" onclick="ver5()"> 5 </button>
                 <button type="button" id="btn6" onclick="ver6()"> 6 </button>
@@ -38,7 +37,6 @@
                 <button type="button" id="btn10" onclick="ver10()"> 10 </button>
             </div>
 
-        </center>
-    </section>
+        </div>
     </body>
 </html>

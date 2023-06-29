@@ -14,7 +14,7 @@ header {margin-left: 20px;}
 .content{
     width: 80%;
     text-align: center;
-    margin:40% auto;
+    margin:15% auto;
     font-size: 15px;
 }
 
@@ -28,54 +28,6 @@ button {
     border-radius: 10px;
 }
 
-.intro {
-        border: 2px solid black;
-        border-radius: 10px;
-        background-color: white;
-        text-align: center;
-        padding-top: 10px;
-        margin: 5% auto;
-        margin-bottom: 20px;
-        padding: 20px;
-}
-
-.intro h1 {
-        margin: 0 0 10px;
-}
-
-.intro p{
-        margin: 0;
-        line-height: 30px;
-}
-
-.game-content{
-        border: 2px solid black;
-        border-radius: 10px;
-        background-color: white;
-        text-align: center;
-        padding-top: 10px;
-        margin: 10px auto;
-        padding: 10px;
-        padding-bottom: 15px;
-}
-
-#btn{
-        text-align: center;
-}
-
-#btn button {
-        width: 60px;
-        height: 60px;
-}
-
-#count {
-        font-size: 30px;
-}
-
-.theme {
-        font-size: 18px;
-}
-
 /* Tablet */
 @media (min-width:768px){
     #sublogo {
@@ -83,7 +35,7 @@ button {
     }
 
    .content {
-    margin: 20% auto;
+    margin: 8% auto;
     font-size: 23px;
    }
 
@@ -91,7 +43,6 @@ button {
     font-size: 23px;
     padding: 15px;
    }
-   
 }
 
 /* Desktop */
@@ -101,7 +52,7 @@ button {
     }
 
    .content {
-    margin: 15% auto;
+    margin: 8% auto;
     width: 60%;
     font-size: 23px;
    }

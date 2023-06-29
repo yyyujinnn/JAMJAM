@@ -7,40 +7,28 @@
 
         <title>JAMJAM</title>
 
-        
+        <link href="GameChoose.css" rel="stylesheet">
     </head>
-
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
-        button {font-family: 'Jua', sans-serif; font-size: 20px; background-color: #fff8dc; border-radius: 10px;}
-
-        body {background-color: #fff6ec; font-family: 'Jua', sans-serif;}
-        header {margin-left: 20px;}
-        center {margin-top: 30px;}
-    
-    </style>
     
     <body>
      <header>
-        <input type="image" src="logo\logo_width.png" alt="JAMJAM logo" width="160" height="70"  onclick="location.href='index.html'">
+        <input id="sublogo" type="image" src="logo\logo_width.png" alt="JAMJAM logo" onclick="location.href='index.html'">
     </header>
 
-    <center>
+    <div class="content">
        <h1>게임 선택</h1> 
-       <br>
-       <button type="button" style="width: 350px;height: 70px;" onclick="location.href='liar/liar.html'">라이어 게임</button>
-       <br>
-       <br>
-       <button type="button" style="width: 350px;height: 70px;" onclick="location.href='picture/picture.html'">인물 퀴즈</button>
-       <br>
-       <br>
-       <button type="button" style="width: 350px;height: 70px;" onclick="location.href='word/word.html'">네글자 퀴즈</button>
-       <br>
-       <br>
-       <button type="button" style="width: 350px;height: 70px;" onclick="location.href='balance/balance.html'">밸런스 게임</button>
-       <br>
-       <br>
-       <button type="button" style="width: 350px;height: 70px;" onclick="location.href='updown/updown.html'">Up Down 게임</button>
-    </center>
+       
+       <div class="btn-container">
+       <button type="button "onclick="location.href='liar/liar.html'">라이어 게임</button>
+       
+       <button type="button" onclick="location.href='picture/picture.html'">인물 퀴즈</button>
+       
+       <button type="button" onclick="location.href='word/word.html'">네글자 퀴즈</button>
+       
+       <button type="button" onclick="location.href='balance/balance.html'">밸런스 게임</button>
+       
+       <button type="button" onclick="location.href='updown/updown.html'">Up Down 게임</button>
+    </div>
+</div>
     </body>
 </html>

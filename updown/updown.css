@@ -1,24 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
 
+body {background-color: #fff6ec;}
+
+#sublogo {
+        width: 30%;
+}
+
 header {margin-left: 20px;}
 
-section {position: relative; top: 0px; text-align: center;}
-
-body{
-    background-color: #fff6ec;
-    font-family: 'Jua', sans-serif; 
-    font-size: 20px;
-}
-
-.title{
-    border: 2px solid black; padding: 10px; border-radius: 10px;
-    font-size: 20px; background-color: white;
-}
+.title {margin-top: 20px; text-align: center;
+        font-family: 'Jua', sans-serif; 
+        border: 2px solid black; padding: 10px; border-radius: 10px;
+        font-size: 20px; background-color: white;}
 
 .game{
     margin-top: 20px; text-align: center;
-    border: 2px solid black; padding: 10px; border-radius: 10px;
-    font-size: 20px; background-color: white;
+        font-family: 'Jua', sans-serif; 
+        border: 2px solid black; padding: 10px; border-radius: 10px;
+        font-size: 20px; background-color: white;
 }
 
-button {font-family: 'Jua', sans-serif; font-size: 20px; width: 120px; height: 70px; border-radius: 10px;}
+button {
+        font-family: 'Jua', sans-serif; 
+        font-size: 20px;
+        border-radius: 10px;
+        background-color: #fff8dc; 
+        padding: 10px 20px;
+}
+
+div {margin: 20px;}
+
+/* Tablet */
+@media (min-width:768px){
+        #sublogo {
+            width: 25%;
+        }
+    
+    }
+    
+    /* Desktop */
+    @media (min-width:992px){
+        #sublogo {
+            width: 15%;
+        }
+    
+    }

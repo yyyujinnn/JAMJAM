@@ -7,57 +7,46 @@
 
         <title>라이어 게임 설명</title>
 
+        <link href="liarEx.css" rel="stylesheet">
         
     </head>
 
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
-        body {background-color: #fff6ec;}
-        section {margin-top: 8px;}
-        header {margin-left: 20px;}
-
-        section { font-family: 'Jua', sans-serif;
-                  border: 3px dotted; padding: 10px;
-                  background-color: #fff8dc;}
-
-        .alert {color: lightcoral;}
-    </style>
-
     <body>
         <header>
-            <input type="image" src="..\logo\logo_width.png" alt="JAMJAM logo" width="160" height="70"  onclick="location.href='../index.html'">
+            <input id="sublogo" type="image" src="..\logo\logo_width.png" alt="JAMJAM logo" onclick="location.href='../index.html'">
         </header>
 
         <section>
-            <center>
-                <h1>< 라이어 게임 ></h1>
-                <img src="liar_icon.png" alt="liar icon" width="120 " height="130">
-                <br>
-                <br>
+            <div class="content">
+                <h1>&lt; 라이어 게임 &gt;</h1>
+                <img src="liar_icon.png" alt="liar icon">
+
+                <p>
                 게임 참가자에게 각각의 제시어가 주어진다.
                 <br>
                 라이어에게는 제시어가 아닌 “라이어”를 받는다.
-                <br>
-                <br>
-                <p class="alert">
+                <br> 
+                <br>     
+
+                <span>
                 ※ 바보라이어는 제시어가 아닌 다른 단어가 주어진다.
                 <br>
                 즉, 바보라이어는 본인이 라이어인지 모른다.
-                </p>
+                </span>
+
+                <br>
                 <br>
                 순서를 정해 돌아가며 제시어에 대해 한문장으로 설명한다
                 <br>
                 두바퀴를 돌면 라이어를 지목한다.
-                <br>
-                <br>
+                <br>               
                 라이어로 지목받은 사람이 라이어가 아니라면 라이어의 승리 
-                <br>
-                <br>
+                <br>                 
                 라이어가 맞다면 라이어는 다른 사람들이 받은 제시어를 맞힌다.
                 <br>
                 제시어를 맞히면 라이어의 승리, 틀리면 라이어의 패배
-                <br>
-                <br>
-            </center>
+                </p>
+                
+            </div>
         </section>
     </body>

@@ -6,38 +6,26 @@
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
         <title>Up-Down 게임 설명</title>
+
+        <link href="updownEX.css" rel="stylesheet">
     </head>
-
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
-        body {background-color: #fff6ec; }
-        section {margin-top: 117px;}
-        header {margin-left: 20px;}
-
-        section { font-family: 'Jua', sans-serif; font-size: 18px;
-                  border: 3px dotted; padding: 10px;
-                  background-color: #fff8dc;}
-
-    </style>
 
     <body>
         <header>
-            <input type="image" src="..\logo\logo_width.png" alt="JAMJAM logo" width="160" height="70"  onclick="location.href='../index.html'">
+            <input id="sublogo" type="image" src="..\logo\logo_width.png" alt="JAMJAM logo" onclick="location.href='../index.html'">
         </header>
 
         <section>
-            <center>
-                <h1>< Up Down 게임 ></h1>
-                <img src="updown_icon.png" alt="updown icon" width="130 " height="130">
-                <br>
-                <br>
+            <div class="content">
+                <h1>&lt; Up Down 게임 &gt;</h1>
+                <img src="updown_icon.png" alt="updown icon">
+                <p>
                 랜덤으로 발생되는 0 ~ 100 숫자를 맞추는 게임
                 <br>
                 입력한 숫자보다 높으면 UP
                 <br>
                 입력한 숫자보다 낮으면 DOWN
-                <br>
-                <br>
-            </center>
+                </p>
+            </div>
         </section>
     </body>
