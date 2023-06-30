@@ -5,18 +5,18 @@ body {
     font-family: 'Jua', sans-serif;
 }
 
-header {margin-left: 20px;}
-
 #sublogo {
     width: 30%;
+    margin: 6px 10px;
 }
 
 .content { 
     border: 3px dotted; padding: 10px;
     background-color: #fff8dc;
     text-align: center;
-    margin: 15% auto;
     font-size: 15px;
+
+    position: absolute; top: 25vh; left: 5%; right: 5%;
 }
 
 .content img {
@@ -41,7 +41,7 @@ header {margin-left: 20px;}
 
     .content {
         font-size: 18px;
-        margin: 5% auto;
+        top: 25vw;
     }
 
     .content img {
@@ -58,7 +58,7 @@ header {margin-left: 20px;}
 
     .content {
         font-size: 18px;
-        margin: 3% auto;
+        top: 18vw;
     }
 
     .content img {
