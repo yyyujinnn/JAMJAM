@@ -4,9 +4,9 @@ body {background-color: #fff6ec;}
 
 #sublogo {
         width: 30%;
+        margin: 6px 10px;
 }
 
-header {margin-left: 20px;}
 
 .intro {
         margin-top: 20px;
@@ -32,6 +32,7 @@ button {
         height: 70px; 
         border-radius: 10px;
         background-color: #fff8dc; 
+        color: black;
 }
 div {margin: 20px;}
 

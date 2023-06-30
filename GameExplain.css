@@ -5,27 +5,29 @@ body {
     font-family: 'Jua', sans-serif;
 }
 
-header {margin-left: 20px;}
-
 #sublogo {
     width: 30%;
+    margin: 6px 10px;
 }
 
 .content{
-    width: 80%;
     text-align: center;
-    margin:15% auto;
     font-size: 15px;
+
+    position: absolute; top: 15%; left: 10%;
+    width: 80%;
+    height: 60%;
 }
 
 button {
     width: 100%;
-    margin: 10px;
+    margin: 10px 0;
     padding: 10px;
     font-family: 'Jua', sans-serif; 
     font-size: 20px; 
     background-color: #fff8dc; 
     border-radius: 10px;
+    color: black;
 }
 
 /* Tablet */
@@ -35,8 +37,10 @@ button {
     }
 
    .content {
-    margin: 8% auto;
-    font-size: 23px;
+    font-size: 20px;
+    top: 10%;
+    width: 60%;
+    left: 20%;
    }
 
    button {
@@ -52,8 +56,9 @@ button {
     }
 
    .content {
-    margin: 8% auto;
-    width: 60%;
+    width: 50%;
+    top: 15%;
+    left: 25%;
     font-size: 23px;
    }
 

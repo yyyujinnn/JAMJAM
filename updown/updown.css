@@ -4,9 +4,9 @@ body {background-color: #fff6ec;}
 
 #sublogo {
         width: 30%;
+        margin: 6px 10px;
 }
 
-header {margin-left: 20px;}
 
 .title {margin-top: 20px; text-align: center;
         font-family: 'Jua', sans-serif; 
@@ -26,6 +26,7 @@ button {
         border-radius: 10px;
         background-color: #fff8dc; 
         padding: 10px 20px;
+        color: black;
 }
 
 div {margin: 20px;}
