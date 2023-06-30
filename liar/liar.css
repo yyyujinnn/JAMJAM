@@ -74,6 +74,12 @@ button {
 
 .theme {
         font-size: 18px;
+        display: none;
+}
+
+.example {
+        font-size: 25px;
+        display: none;
 }
 
 /* Tablet */
