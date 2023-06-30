@@ -35,6 +35,12 @@ button {
 }
 div {margin: 20px;}
 
+footer {
+        font-family: 'Jua', sans-serif; 
+        text-align: center; 
+        margin: 20px;
+}
+
 /* Tablet */
 @media (min-width:768px){
         #sublogo {
