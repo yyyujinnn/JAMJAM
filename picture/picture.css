@@ -32,6 +32,7 @@ button {
         height: 70px; 
         border-radius: 10px;
         background-color: #fff8dc; 
+        color: black;
 }
 div {margin: 20px;}
 
