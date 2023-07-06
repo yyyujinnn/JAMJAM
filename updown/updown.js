@@ -2,6 +2,9 @@
 //let stringArr = ["3","2","1","START"];
 //let selectString = stringArr[Math.random() * stringArr.length];
 
+// 메뉴
+
+
 
 $(document).ready(function() {
 // 게임시작 버튼 클릭 이벤트
