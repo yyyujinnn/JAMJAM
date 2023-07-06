@@ -32,8 +32,8 @@ function start()
     //setInterval(함수, 시간) : 주기적인 실행
     var timer = setInterval( function() {
         sec = time;
-        document.getElementById("leftTime").innerHTML = "남은 시간";
 
+        document.getElementById("leftTime").innerHTML = "남은 시간";
         document.getElementById("sec").innerHTML = sec;
         time--;
         
