@@ -41,6 +41,11 @@ footer a{
     text-decoration: none;
 }
 
+#copyright {
+    padding: 30px;
+    font-size:10px;
+}
+
 /* Tablet */
 @media (min-width:768px){
     body {
@@ -62,8 +67,8 @@ footer a{
         font-size: 18px;
     }
     .content {
-        width: 40%;
-        left: 30%;
+        width: 30%;
+        left: 35%;
     }
     .content img {
         width: 70%;
