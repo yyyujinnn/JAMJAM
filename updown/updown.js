@@ -33,7 +33,7 @@ var resultCount = $("#resultCount").val();
 
 // 정답
 if(randomValue == txtAnswer) {
-    $("#gameArea").append("<p>정답은 " + randomValue + "입니다. " + resultCount + "번만에 정답을 맞췄습니다.</p>");                
+    $("#gameArea").append("<p>정답은 " + randomValue + '입니다.<br> "' + resultCount + '번"만에 정답을 맞췄습니다.</p>');                
 } 
 // 오답(작은 수 입력)
 else if (Number(randomValue) > Number(txtAnswer)) {
@@ -45,6 +45,6 @@ else if (Number(randomValue) > Number(txtAnswer)) {
 else if (Number(randomValue) < Number(txtAnswer)) {
     resultCount = Number(resultCount) + 1;
     $("#resultCount").val(String(resultCount));
-    $("#gameArea").append("<p>정답은 " + txtAnswer + "보다 " + "<span style = color:blue>작은 수 </span>" + "입니다.</p>");  
+    $("#gameArea").append("<p>정답은 " + txtAnswer + '보다 ' + "<span style = color:blue>작은 수 </span>" + "입니다.</p>");  
 }
 }
