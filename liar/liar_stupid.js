@@ -26,7 +26,7 @@ function ver4(){
              var random_bicycles = Math.floor(Math.random() * bicycles.length); // 랜덤 정수 추출
 
              if(bicycles[random_bicycles] === "자전거"){
-                var bike = ["자전거", "라이어", "자전거", "자전거"]
+                var bike = ["자전거", "오토바이", "자전거", "자전거"]
                 
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
@@ -42,7 +42,7 @@ function ver4(){
                 }
             }
             else if(bicycles[random_bicycles] === "비행기"){
-                var airplane = ["비행기", "비행기", "라이어", "비행기"]
+                var airplane = ["비행기", "비행기", "배", "비행기"]
                 
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
@@ -50,7 +50,7 @@ function ver4(){
                 }
             }
             else if(bicycles[random_bicycles] === "경찰차"){
-                var police = ["경찰차", "경찰차", "라이어", "경찰차"]
+                var police = ["경찰차", "경찰차", "소방차", "경찰차"]
                 
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
@@ -58,7 +58,7 @@ function ver4(){
                 }
             }
             else if(bicycles[random_bicycles] === "열기구"){
-                var balloon = ["열기구", "열기구", "라이어", "열기구"]
+                var balloon = ["열기구", "열기구", "관람차", "열기구"]
                 
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
@@ -66,7 +66,7 @@ function ver4(){
                 }
             }
             else if(bicycles[random_bicycles] === "킥보드"){
-                var kick = ["킥보드", "킥보드", "킥보드", "라이어"]
+                var kick = ["킥보드", "킥보드", "킥보드", "스케이트"]
                 
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
@@ -134,7 +134,7 @@ function ver4(){
             }
 
             else if(foods[random_foods] === "잡채"){
-                var jabchae = ["잡채", "잡채", "잡채", "라이어"]
+                var jabchae = ["잡채", "잡채", "잡채", "볶음우동"]
                 
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
@@ -143,7 +143,7 @@ function ver4(){
             }
             
             else if(foods[random_foods] === "돈가스"){
-                var dongas = ["라이어", "돈가스", "돈가스", "돈가스"]
+                var dongas = ["튀김", "돈가스", "돈가스", "돈가스"]
                 
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
@@ -192,7 +192,7 @@ function ver4(){
                  }
             }
             else if( exercises[random_exercises] === "피구" ){
-                var swim = ["피구", "라이어", "피구","피구"]
+                var swim = ["피구", "배구", "피구","피구"]
 
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
@@ -227,11 +227,11 @@ function ver4(){
         }
     
     else if ( random_themes === 3 ){
-        var electronics = ["스마트폰", "노트북", "전자레인지", "태블릿PC", "TV", "로봇청소기"];
+        var electronics = ["스마트폰", "공기청정기", "전자레인지", "세탁기", "TV", "로봇청소기"];
         var random_electronics = Math.floor(Math.random() * electronics.length); // 랜덤 정수 추출
 
         if( electronics[random_electronics] === "스마트폰" ){                
-            var phone = ["스마트폰", "스마트폰","스마트폰","라이어"]
+            var phone = ["스마트폰", "스마트폰","스마트폰","태블릿PC"]
 
             for (var i = 0; i < 4; i++) {
                 alert("제시어를 확인하세요.");
@@ -239,13 +239,13 @@ function ver4(){
             }
         }
 
-        else if( electronics[random_electronics] === "노트북" ){
+        else if( electronics[random_electronics] === "공기청정기" ){
             
-            var notebook = ["라이어", "노트북","노트북","노트북"]
+            var air = ["제습기", "공기청정기","공기청정기","공기청정기"]
 
             for (var i = 0; i < 4; i++) {
                 alert("제시어를 확인하세요.");
-                alert(i+1 + "번째 당신은 " + notebook[i] + "입니다.");
+                alert(i+1 + "번째 당신은 " + air[i] + "입니다.");
             }
         }
         else if( electronics[random_electronics] === "전자레인지" ){
@@ -257,16 +257,16 @@ function ver4(){
                 alert(i+1 + "번째 당신은 " + junja[i] + "입니다.");
              }
         }
-        else if( electronics[random_electronics] === "태블릿PC" ){
-            var tablet = ["태블릿PC", "라이어", "태블릿PC","태블릿PC"]
+        else if( electronics[random_electronics] === "세탁기" ){
+            var wash = ["세탁기", "건조기", "세탁기","세탁기"]
 
             for (var i = 0; i < 4; i++) {
                 alert("제시어를 확인하세요.");
-                alert(i+1 + "번째 당신은 " + tablet[i] + "입니다.");
+                alert(i+1 + "번째 당신은 " + wash[i] + "입니다.");
              }
         }
         else if( electronics[random_eelectronics] === "TV" ){
-            var tv = ["TV", "TV", "라이어","TV"]
+            var tv = ["TV", "TV", "빔프로젝트","TV"]
 
             for (var i = 0; i < 4; i++) {
                 alert("제시어를 확인하세요.");
@@ -373,7 +373,7 @@ function ver5(){
              var random_bicycles = Math.floor(Math.random() * bicycles.length); // 랜덤 정수 추출
 
              if(bicycles[random_bicycles] === "자전거"){
-                var bike = ["자전거", "라이어", "자전거", "자전거", "자전거"]
+                var bike = ["자전거", "오토바이", "자전거", "자전거", "자전거"]
                 
                 for (var i = 0; i < 5; i++) {
                     alert("제시어를 확인하세요.");
@@ -389,7 +389,7 @@ function ver5(){
                 }
             }
             else if(bicycles[random_bicycles] === "비행기"){
-                var airplane = ["비행기", "비행기", "라이어", "비행기", "비행기"]
+                var airplane = ["비행기", "비행기", "배", "비행기", "비행기"]
                 
                 for (var i = 0; i < 5; i++) {
                     alert("제시어를 확인하세요.");
@@ -397,7 +397,7 @@ function ver5(){
                 }
             }
             else if(bicycles[random_bicycles] === "경찰차"){
-                var police = ["경찰차", "경찰차", "라이어", "경찰차", "경찰차"]
+                var police = ["경찰차", "경찰차", "소방차", "경찰차", "경찰차"]
                 
                 for (var i = 0; i < 5; i++) {
                     alert("제시어를 확인하세요.");
@@ -405,7 +405,7 @@ function ver5(){
                 }
             }
             else if(bicycles[random_bicycles] === "열기구"){
-                var balloon = ["열기구", "열기구", "열기구", "라이어", "열기구"]
+                var balloon = ["열기구", "열기구", "열기구", "관람차", "열기구"]
                 
                 for (var i = 0; i < 5; i++) {
                     alert("제시어를 확인하세요.");
@@ -413,7 +413,7 @@ function ver5(){
                 }
             }
             else if(bicycles[random_bicycles] === "킥보드"){
-                var kick = ["킥보드", "킥보드", "킥보드", "라이어", "킥보드"]
+                var kick = ["킥보드", "킥보드", "킥보드", "스케이트", "킥보드"]
                 
                 for (var i = 0; i < 5; i++) {
                     alert("제시어를 확인하세요.");
@@ -481,7 +481,7 @@ function ver5(){
             }
 
             else if(foods[random_foods] === "잡채"){
-                var jabchae = ["잡채", "잡채", "잡채", "라이어", "잡채"]
+                var jabchae = ["잡채", "잡채", "잡채", "볶음우동", "잡채"]
                 
                 for (var i = 0; i < 5; i++) {
                     alert("제시어를 확인하세요.");
@@ -490,7 +490,7 @@ function ver5(){
             }
             
             else if(foods[random_foods] === "돈가스"){
-                var dongas = ["라이어", "돈가스", "돈가스", "돈가스", "돈가스"]
+                var dongas = ["튀김", "돈가스", "돈가스", "돈가스", "돈가스"]
                 
                 for (var i = 0; i < 5; i++) {
                     alert("제시어를 확인하세요.");
@@ -539,7 +539,7 @@ function ver5(){
                  }
             }
             else if( exercises[random_exercises] === "피구" ){
-                var swim = ["피구", "라이어", "피구", "피구","피구"]
+                var swim = ["피구", "배구", "피구", "피구","피구"]
 
                 for (var i = 0; i < 5; i++) {
                     alert("제시어를 확인하세요.");
@@ -574,11 +574,11 @@ function ver5(){
         }
     
     else if ( random_themes === 3 ){
-        var electronics = ["스마트폰", "노트북", "전자레인지", "태블릿PC", "TV", "로봇청소기"];
+        var electronics = ["스마트폰", "공기청정기", "전자레인지", "세탁기", "TV", "로봇청소기"];
         var random_electronics = Math.floor(Math.random() * electronics.length); // 랜덤 정수 추출
 
         if( electronics[random_electronics] === "스마트폰" ){                
-            var phone = ["스마트폰", "스마트폰","스마트폰","라이어", "스마트폰"]
+            var phone = ["스마트폰", "스마트폰","스마트폰","태블릿PC", "스마트폰"]
 
             for (var i = 0; i < 5; i++) {
                 alert("제시어를 확인하세요.");
@@ -586,13 +586,13 @@ function ver5(){
             }
         }
 
-        else if( electronics[random_electronics] === "노트북" ){
+        else if( electronics[random_electronics] === "공기청정기" ){
             
-            var notebook = ["라이어", "노트북", "노트북", "노트북","노트북"]
+            var air = ["제습기", "공기청정기", "공기청정기", "공기청정기","공기청정기"]
 
             for (var i = 0; i < 5; i++) {
                 alert("제시어를 확인하세요.");
-                alert(i+1 + "번째 당신은 " + notebook[i] + "입니다.");
+                alert(i+1 + "번째 당신은 " + air[i] + "입니다.");
             }
         }
         else if( electronics[random_electronics] === "전자레인지" ){
@@ -604,16 +604,16 @@ function ver5(){
                 alert(i+1 + "번째 당신은 " + junja[i] + "입니다.");
              }
         }
-        else if( electronics[random_electronics] === "태블릿PC" ){
-            var tablet = ["태블릿PC", "라이어", "태블릿PC", "태블릿PC", "태블릿PC"]
+        else if( electronics[random_electronics] === "세탁기" ){
+            var wash = ["세탁기", "건조기", "세탁기", "세탁기", "세탁기"]
 
             for (var i = 0; i < 5; i++) {
                 alert("제시어를 확인하세요.");
-                alert(i+1 + "번째 당신은 " + tablet[i] + "입니다.");
+                alert(i+1 + "번째 당신은 " + wash[i] + "입니다.");
              }
         }
         else if( electronics[random_eelectronics] === "TV" ){
-            var tv = ["TV", "TV", "라이어","TV","TV"]
+            var tv = ["TV", "TV", "빔프로젝트","TV","TV"]
 
             for (var i = 0; i < 5; i++) {
                 alert("제시어를 확인하세요.");
@@ -720,7 +720,7 @@ function ver6(){
              var random_bicycles = Math.floor(Math.random() * bicycles.length); // 랜덤 정수 추출
 
              if(bicycles[random_bicycles] === "자전거"){
-                var bike = ["자전거", "라이어", "자전거", "라이어", "자전거", "자전거"]
+                var bike = ["자전거", "오토바이", "자전거", "오토바이", "자전거", "자전거"]
                 
                 for (var i = 0; i < 6; i++) {
                     alert("제시어를 확인하세요.");
@@ -736,7 +736,7 @@ function ver6(){
                 }
             }
             else if(bicycles[random_bicycles] === "비행기"){
-                var airplane = ["비행기", "라이어", "비행기", "라이어", "비행기", "비행기"]
+                var airplane = ["비행기", "배", "비행기", "배", "비행기", "비행기"]
                 
                 for (var i = 0; i < 6; i++) {
                     alert("제시어를 확인하세요.");
@@ -744,7 +744,7 @@ function ver6(){
                 }
             }
             else if(bicycles[random_bicycles] === "경찰차"){
-                var police = ["경찰차", "라이어", "경찰차", "라이어", "경찰차", "경찰차"]
+                var police = ["경찰차", "소방차", "경찰차", "소방차", "경찰차", "경찰차"]
                 
                 for (var i = 0; i < 6; i++) {
                     alert("제시어를 확인하세요.");
@@ -752,7 +752,7 @@ function ver6(){
                 }
             }
             else if(bicycles[random_bicycles] === "열기구"){
-                var balloon = ["열기구", "열기구", "라이어", "열기구", "라이어", "열기구"]
+                var balloon = ["열기구", "열기구", "관람차", "열기구", "관람차", "열기구"]
                 
                 for (var i = 0; i < 6; i++) {
                     alert("제시어를 확인하세요.");
@@ -760,7 +760,7 @@ function ver6(){
                 }
             }
             else if(bicycles[random_bicycles] === "킥보드"){
-                var kick = ["킥보드", "킥보드", "라이어", "킥보드", "라이어", "킥보드"]
+                var kick = ["킥보드", "킥보드", "스케이트", "킥보드", "스케이트", "킥보드"]
                 
                 for (var i = 0; i < 6; i++) {
                     alert("제시어를 확인하세요.");
@@ -828,7 +828,7 @@ function ver6(){
             }
 
             else if(foods[random_foods] === "잡채"){
-                var jabchae = ["잡채","라이어", "잡채", "잡채", "라이어", "잡채"]
+                var jabchae = ["잡채","볶음우동", "잡채", "잡채", "볶음우동", "잡채"]
                 
                 for (var i = 0; i < 6; i++) {
                     alert("제시어를 확인하세요.");
@@ -837,7 +837,7 @@ function ver6(){
             }
             
             else if(foods[random_foods] === "돈가스"){
-                var dongas = ["라이어", "돈가스","라이어", "돈가스", "돈가스", "돈가스"]
+                var dongas = ["튀김", "돈가스","튀김", "돈가스", "돈가스", "돈가스"]
                 
                 for (var i = 0; i < 6; i++) {
                     alert("제시어를 확인하세요.");
@@ -886,7 +886,7 @@ function ver6(){
                  }
             }
             else if( exercises[random_exercises] === "피구" ){
-                var swim = ["피구", "라이어", "라이어", "피구", "피구","피구"]
+                var swim = ["피구", "배구", "배구", "피구", "피구","피구"]
 
                 for (var i = 0; i < 6; i++) {
                     alert("제시어를 확인하세요.");
@@ -921,11 +921,11 @@ function ver6(){
         }
     
     else if ( random_themes === 3 ){
-        var electronics = ["스마트폰", "노트북", "전자레인지", "태블릿PC", "TV", "로봇청소기"];
+        var electronics = ["스마트폰", "공기청정기", "전자레인지", "세탁기", "TV", "로봇청소기"];
         var random_electronics = Math.floor(Math.random() * electronics.length); // 랜덤 정수 추출
 
         if( electronics[random_electronics] === "스마트폰" ){                
-            var phone = ["스마트폰", "라이어", "스마트폰", "스마트폰", "스마트폰","라이어"]
+            var phone = ["스마트폰", "태블릿PC", "스마트폰", "스마트폰", "스마트폰","태블릿PC"]
 
             for (var i = 0; i < 6; i++) {
                 alert("제시어를 확인하세요.");
@@ -933,13 +933,13 @@ function ver6(){
             }
         }
 
-        else if( electronics[random_electronics] === "노트북" ){
+        else if( electronics[random_electronics] === "공기청정기" ){
             
-            var notebook = ["라이어", "라이어", "노트북", "노트북", "노트북","노트북"]
+            var air = ["제습기", "제습기", "공기청정기", "공기청정기", "공기청정기","공기청정기"]
 
             for (var i = 0; i < 6; i++) {
                 alert("제시어를 확인하세요.");
-                alert(i+1 + "번째 당신은 " + notebook[i] + "입니다.");
+                alert(i+1 + "번째 당신은 " + air[i] + "입니다.");
             }
         }
         else if( electronics[random_electronics] === "전자레인지" ){
@@ -951,16 +951,16 @@ function ver6(){
                 alert(i+1 + "번째 당신은 " + junja[i] + "입니다.");
              }
         }
-        else if( electronics[random_electronics] === "태블릿PC" ){
-            var tablet = ["태블릿PC", "라이어", "태블릿PC", "라이어", "태블릿PC", "태블릿PC"]
+        else if( electronics[random_electronics] === "세탁기" ){
+            var wash = ["세탁기", "건조기", "세탁기", "건조기", "세탁기", "세탁기"]
 
             for (var i = 0; i < 6; i++) {
                 alert("제시어를 확인하세요.");
-                alert(i+1 + "번째 당신은 " + tablet[i] + "입니다.");
+                alert(i+1 + "번째 당신은 " + wash[i] + "입니다.");
              }
         }
         else if( electronics[random_eelectronics] === "TV" ){
-            var tv = ["TV", "TV", "라이어","TV", "라이어", "TV"]
+            var tv = ["TV", "TV", "빔프로젝트","TV", "빔프로젝트", "TV"]
 
             for (var i = 0; i < 6; i++) {
                 alert("제시어를 확인하세요.");
@@ -1065,7 +1065,7 @@ function ver7(){
              var random_bicycles = Math.floor(Math.random() * bicycles.length); // 랜덤 정수 추출
 
              if(bicycles[random_bicycles] === "자전거"){
-                var bike = ["자전거", "라이어", "자전거", "라이어", "자전거", "자전거", "자전거"]
+                var bike = ["자전거", "오토바이", "자전거", "오토바이", "자전거", "자전거", "자전거"]
                 
                 for (var i = 0; i < 7; i++) {
                     alert("제시어를 확인하세요.");
@@ -1081,7 +1081,7 @@ function ver7(){
                 }
             }
             else if(bicycles[random_bicycles] === "비행기"){
-                var airplane = ["비행기", "비행기", "라이어", "비행기", "라이어", "비행기", "비행기"]
+                var airplane = ["비행기", "비행기", "배", "비행기", "배", "비행기", "비행기"]
                 
                 for (var i = 0; i < 7; i++) {
                     alert("제시어를 확인하세요.");
@@ -1089,7 +1089,7 @@ function ver7(){
                 }
             }
             else if(bicycles[random_bicycles] === "경찰차"){
-                var police = ["경찰차", "경찰차", "라이어", "경찰차", "라이어", "경찰차", "경찰차"]
+                var police = ["경찰차", "경찰차", "소방차", "경찰차", "소방차", "경찰차", "경찰차"]
                 
                 for (var i = 0; i < 7; i++) {
                     alert("제시어를 확인하세요.");
@@ -1097,7 +1097,7 @@ function ver7(){
                 }
             }
             else if(bicycles[random_bicycles] === "열기구"){
-                var balloon = ["열기구", "열기구", "라이어", "열기구", "라이어", "열기구", "열기구"]
+                var balloon = ["열기구", "열기구", "관람차", "열기구", "관람차", "열기구", "열기구"]
                 
                 for (var i = 0; i < 7; i++) {
                     alert("제시어를 확인하세요.");
@@ -1105,7 +1105,7 @@ function ver7(){
                 }
             }
             else if(bicycles[random_bicycles] === "킥보드"){
-                var kick = ["킥보드", "킥보드", "라이어", "킥보드", "킥보드", "라이어", "킥보드"]
+                var kick = ["킥보드", "킥보드", "스케이트", "킥보드", "킥보드", "스케이트", "킥보드"]
                 
                 for (var i = 0; i < 7; i++) {
                     alert("제시어를 확인하세요.");
@@ -1173,7 +1173,7 @@ function ver7(){
             }
 
             else if(foods[random_foods] === "잡채"){
-                var jabchae = ["잡채","라이어", "잡채", "잡채", "잡채", "라이어", "잡채"]
+                var jabchae = ["잡채","볶음우동", "잡채", "잡채", "잡채", "볶음우동", "잡채"]
                 
                 for (var i = 0; i < 7; i++) {
                     alert("제시어를 확인하세요.");
@@ -1182,7 +1182,7 @@ function ver7(){
             }
             
             else if(foods[random_foods] === "돈가스"){
-                var dongas = ["돈가스", "라이어", "돈가스","라이어", "돈가스", "돈가스", "돈가스"]
+                var dongas = ["돈가스", "튀김", "돈가스","튀김", "돈가스", "돈가스", "돈가스"]
                 
                 for (var i = 0; i < 7; i++) {
                     alert("제시어를 확인하세요.");
@@ -1231,7 +1231,7 @@ function ver7(){
                  }
             }
             else if( exercises[random_exercises] === "피구" ){
-                var swim = ["피구", "라이어", "라이어", "피구", "피구", "피구","피구"]
+                var swim = ["피구", "배구", "배구", "피구", "피구", "피구","피구"]
 
                 for (var i = 0; i < 7; i++) {
                     alert("제시어를 확인하세요.");
@@ -1266,11 +1266,11 @@ function ver7(){
         }
     
     else if ( random_themes === 3 ){
-        var electronics = ["스마트폰", "노트북", "전자레인지", "태블릿PC", "TV", "로봇청소기"];
+        var electronics = ["스마트폰", "공기청정기", "전자레인지", "세탁기", "TV", "로봇청소기"];
         var random_electronics = Math.floor(Math.random() * electronics.length); // 랜덤 정수 추출
 
         if( electronics[random_electronics] === "스마트폰" ){                
-            var phone = ["스마트폰", "라이어", "스마트폰", "스마트폰", "스마트폰", "스마트폰","라이어"]
+            var phone = ["스마트폰", "태블릿PC", "스마트폰", "스마트폰", "스마트폰", "스마트폰","태블릿PC"]
 
             for (var i = 0; i < 7; i++) {
                 alert("제시어를 확인하세요.");
@@ -1278,13 +1278,13 @@ function ver7(){
             }
         }
 
-        else if( electronics[random_electronics] === "노트북" ){
+        else if( electronics[random_electronics] === "공기청정기" ){
             
-            var notebook = ["라이어", "노트북", "라이어", "노트북", "노트북", "노트북","노트북"]
+            var air = ["제습기", "공기청정기", "제습기", "공기청정기", "공기청정기", "공기청정기","공기청정기"]
 
             for (var i = 0; i < 7; i++) {
                 alert("제시어를 확인하세요.");
-                alert(i+1 + "번째 당신은 " + notebook[i] + "입니다.");
+                alert(i+1 + "번째 당신은 " + air[i] + "입니다.");
             }
         }
         else if( electronics[random_electronics] === "전자레인지" ){
@@ -1296,16 +1296,16 @@ function ver7(){
                 alert(i+1 + "번째 당신은 " + junja[i] + "입니다.");
              }
         }
-        else if( electronics[random_electronics] === "태블릿PC" ){
-            var tablet = ["태블릿PC", "라이어", "태블릿PC", "태블릿PC", "라이어", "태블릿PC", "태블릿PC"]
+        else if( electronics[random_electronics] === "세탁기" ){
+            var wash = ["세탁기", "건조기", "세탁기", "세탁기", "건조기", "세탁기", "세탁기"]
 
             for (var i = 0; i < 7; i++) {
                 alert("제시어를 확인하세요.");
-                alert(i+1 + "번째 당신은 " + tablet[i] + "입니다.");
+                alert(i+1 + "번째 당신은 " + wash[i] + "입니다.");
              }
         }
         else if( electronics[random_eelectronics] === "TV" ){
-            var tv = ["TV", "TV", "라이어","TV", "라이어", "TV", "TV"]
+            var tv = ["TV", "TV", "빔프로젝트","TV", "빔프로젝트", "TV", "TV"]
 
             for (var i = 0; i < 7; i++) {
                 alert("제시어를 확인하세요.");
@@ -1410,7 +1410,7 @@ function ver8(){
              var random_bicycles = Math.floor(Math.random() * bicycles.length); // 랜덤 정수 추출
 
              if(bicycles[random_bicycles] === "자전거"){
-                var bike = ["자전거", "자전거", "라이어", "자전거", "라이어", "자전거", "자전거", "자전거"]
+                var bike = ["자전거", "자전거", "오토바이", "자전거", "오토바이", "자전거", "자전거", "자전거"]
                 
                 for (var i = 0; i < 8; i++) {
                     alert("제시어를 확인하세요.");
@@ -1426,7 +1426,7 @@ function ver8(){
                 }
             }
             else if(bicycles[random_bicycles] === "비행기"){
-                var airplane = ["비행기", "비행기", "비행기", "라이어", "비행기", "라이어", "비행기", "비행기"]
+                var airplane = ["비행기", "비행기", "비행기", "배", "비행기", "배", "비행기", "비행기"]
                 
                 for (var i = 0; i < 8; i++) {
                     alert("제시어를 확인하세요.");
@@ -1434,7 +1434,7 @@ function ver8(){
                 }
             }
             else if(bicycles[random_bicycles] === "경찰차"){
-                var police = ["경찰차", "경찰차", "경찰차", "라이어", "경찰차", "라이어", "경찰차", "경찰차"]
+                var police = ["경찰차", "경찰차", "경찰차", "소방차", "경찰차", "소방차", "경찰차", "경찰차"]
                 
                 for (var i = 0; i < 8; i++) {
                     alert("제시어를 확인하세요.");
@@ -1442,7 +1442,7 @@ function ver8(){
                 }
             }
             else if(bicycles[random_bicycles] === "열기구"){
-                var balloon = ["열기구", "열기구", "열기구", "라이어", "열기구", "라이어", "열기구", "열기구"]
+                var balloon = ["열기구", "열기구", "열기구", "관람차", "열기구", "관람차", "열기구", "열기구"]
                 
                 for (var i = 0; i < 8; i++) {
                     alert("제시어를 확인하세요.");
@@ -1450,7 +1450,7 @@ function ver8(){
                 }
             }
             else if(bicycles[random_bicycles] === "킥보드"){
-                var kick = ["킥보드", "킥보드", "킥보드", "라이어", "킥보드", "킥보드", "라이어", "킥보드"]
+                var kick = ["킥보드", "킥보드", "킥보드", "스케이트", "킥보드", "킥보드", "스케이트", "킥보드"]
                 
                 for (var i = 0; i < 8; i++) {
                     alert("제시어를 확인하세요.");
@@ -1518,7 +1518,7 @@ function ver8(){
             }
 
             else if(foods[random_foods] === "잡채"){
-                var jabchae = ["잡채", "잡채","라이어", "잡채", "잡채", "잡채", "라이어", "잡채"]
+                var jabchae = ["잡채", "잡채","볶음우동", "잡채", "잡채", "잡채", "볶음우동", "잡채"]
                 
                 for (var i = 0; i < 8; i++) {
                     alert("제시어를 확인하세요.");
@@ -1527,7 +1527,7 @@ function ver8(){
             }
             
             else if(foods[random_foods] === "돈가스"){
-                var dongas = ["돈가스", "돈가스", "라이어", "돈가스","라이어", "돈가스", "돈가스", "돈가스"]
+                var dongas = ["돈가스", "돈가스", "튀김", "돈가스","튀김", "돈가스", "돈가스", "돈가스"]
                 
                 for (var i = 0; i < 8; i++) {
                     alert("제시어를 확인하세요.");
@@ -1576,7 +1576,7 @@ function ver8(){
                  }
             }
             else if( exercises[random_exercises] === "피구" ){
-                var swim = ["피구", "라이어", "피구", "라이어", "피구", "피구", "피구","피구"]
+                var swim = ["피구", "배구", "피구", "배구", "피구", "피구", "피구","피구"]
 
                 for (var i = 0; i < 8; i++) {
                     alert("제시어를 확인하세요.");
@@ -1611,11 +1611,11 @@ function ver8(){
         }
     
     else if ( random_themes === 3 ){
-        var electronics = ["스마트폰", "노트북", "전자레인지", "태블릿PC", "TV", "로봇청소기"];
+        var electronics = ["스마트폰", "공기청정기", "전자레인지", "세탁기", "TV", "로봇청소기"];
         var random_electronics = Math.floor(Math.random() * electronics.length); // 랜덤 정수 추출
 
         if( electronics[random_electronics] === "스마트폰" ){                
-            var phone = ["스마트폰", "라이어", "스마트폰", "스마트폰", "스마트폰", "스마트폰", "스마트폰","라이어"]
+            var phone = ["스마트폰", "태블릿PC", "스마트폰", "스마트폰", "스마트폰", "스마트폰", "스마트폰", "태블릿PC"]
 
             for (var i = 0; i < 8; i++) {
                 alert("제시어를 확인하세요.");
@@ -1623,13 +1623,13 @@ function ver8(){
             }
         }
 
-        else if( electronics[random_electronics] === "노트북" ){
+        else if( electronics[random_electronics] === "공기청정기" ){
             
-            var notebook = ["라이어", "노트북", "노트북", "라이어", "노트북", "노트북", "노트북","노트북"]
+            var air = ["제습기", "공기청정기", "공기청정기", "제습기", "공기청정기", "공기청정기", "공기청정기","공기청정기"]
 
             for (var i = 0; i < 8; i++) {
                 alert("제시어를 확인하세요.");
-                alert(i+1 + "번째 당신은 " + notebook[i] + "입니다.");
+                alert(i+1 + "번째 당신은 " + air[i] + "입니다.");
             }
         }
         else if( electronics[random_electronics] === "전자레인지" ){
@@ -1641,16 +1641,16 @@ function ver8(){
                 alert(i+1 + "번째 당신은 " + junja[i] + "입니다.");
              }
         }
-        else if( electronics[random_electronics] === "태블릿PC" ){
-            var tablet = ["태블릿PC", "라이어", "태블릿PC", "태블릿PC", "태블릿PC", "라이어", "태블릿PC", "태블릿PC"]
+        else if( electronics[random_electronics] === "세탁기" ){
+            var wash = ["세탁기", "건조기", "세탁기", "세탁기", "세탁기", "건조기", "세탁기", "세탁기"]
 
             for (var i = 0; i < 8; i++) {
                 alert("제시어를 확인하세요.");
-                alert(i+1 + "번째 당신은 " + tablet[i] + "입니다.");
+                alert(i+1 + "번째 당신은 " + wash[i] + "입니다.");
              }
         }
         else if( electronics[random_eelectronics] === "TV" ){
-            var tv = ["TV", "TV", "라이어","TV", "라이어", "TV", "TV", "TV"]
+            var tv = ["TV", "TV", "빔프로젝트","TV", "빔프로젝트", "TV", "TV", "TV"]
 
             for (var i = 0; i < 8; i++) {
                 alert("제시어를 확인하세요.");
@@ -1755,7 +1755,7 @@ function ver9(){
              var random_bicycles = Math.floor(Math.random() * bicycles.length); // 랜덤 정수 추출
 
              if(bicycles[random_bicycles] === "자전거"){
-                var bike = ["자전거", "라이어", "자전거", "라이어", "자전거", "라이어", "자전거", "자전거", "자전거"]
+                var bike = ["자전거", "오토바이", "자전거", "오토바이", "자전거", "오토바이", "자전거", "자전거", "자전거"]
                 
                 for (var i = 0; i < 9; i++) {
                     alert("제시어를 확인하세요.");
@@ -1771,7 +1771,7 @@ function ver9(){
                 }
             }
             else if(bicycles[random_bicycles] === "비행기"){
-                var airplane = ["비행기", "라이어", "비행기", "비행기", "라이어", "비행기", "라이어", "비행기", "비행기"]
+                var airplane = ["비행기", "배", "비행기", "비행기", "배", "비행기", "배", "비행기", "비행기"]
                 
                 for (var i = 0; i < 9; i++) {
                     alert("제시어를 확인하세요.");
@@ -1779,7 +1779,7 @@ function ver9(){
                 }
             }
             else if(bicycles[random_bicycles] === "경찰차"){
-                var police = ["경찰차", "경찰차", "라이어", "경찰차", "라이어", "경찰차", "라이어", "경찰차", "경찰차"]
+                var police = ["경찰차", "경찰차", "소방차", "경찰차", "소방차", "경찰차", "소방차", "경찰차", "경찰차"]
                 
                 for (var i = 0; i < 9; i++) {
                     alert("제시어를 확인하세요.");
@@ -1787,7 +1787,7 @@ function ver9(){
                 }
             }
             else if(bicycles[random_bicycles] === "열기구"){
-                var balloon = ["열기구", "열기구", "열기구", "라이어", "열기구", "라이어", "열기구", "열기구", "라이어"]
+                var balloon = ["열기구", "열기구", "열기구", "관람차", "열기구", "관람차", "열기구", "열기구", "관람차"]
                 
                 for (var i = 0; i < 9; i++) {
                     alert("제시어를 확인하세요.");
@@ -1795,7 +1795,7 @@ function ver9(){
                 }
             }
             else if(bicycles[random_bicycles] === "킥보드"){
-                var kick = ["킥보드", "킥보드", "킥보드", "라이어", "킥보드", "킥보드", "라이어", "킥보드", "라이어"]
+                var kick = ["킥보드", "킥보드", "킥보드", "스케이트", "킥보드", "킥보드", "스케이트", "킥보드", "스케이트"]
                 
                 for (var i = 0; i < 9; i++) {
                     alert("제시어를 확인하세요.");
@@ -1836,7 +1836,7 @@ function ver9(){
             }
 
             else if(foods[random_foods] === "치킨"){
-                var chicken = ["치킨", "치킨","삼계탕", "치킨", "치킨", "삼계탕", "치킨", "라이어", "치킨"]
+                var chicken = ["치킨", "치킨","삼계탕", "치킨", "치킨", "삼계탕", "치킨", "삼계탕", "치킨"]
                 
                 for (var i = 0; i < 9; i++) {
                     alert("제시어를 확인하세요.");
@@ -1863,7 +1863,7 @@ function ver9(){
             }
 
             else if(foods[random_foods] === "잡채"){
-                var jabchae = ["잡채", "잡채","라이어", "잡채", "잡채", "라이어", "잡채", "라이어", "잡채"]
+                var jabchae = ["잡채", "잡채","볶음우동", "잡채", "잡채", "볶음우동", "잡채", "볶음우동", "잡채"]
                 
                 for (var i = 0; i < 9; i++) {
                     alert("제시어를 확인하세요.");
@@ -1872,7 +1872,7 @@ function ver9(){
             }
             
             else if(foods[random_foods] === "돈가스"){
-                var dongas = ["돈가스", "돈가스", "라이어", "돈가스","라이어", "돈가스", "돈가스", "라이어", "돈가스"]
+                var dongas = ["돈가스", "돈가스", "튀김", "돈가스","튀김", "돈가스", "돈가스", "튀김", "돈가스"]
                 
                 for (var i = 0; i < 9; i++) {
                     alert("제시어를 확인하세요.");
@@ -1920,7 +1920,7 @@ function ver9(){
                  }
             }
             else if( exercises[random_exercises] === "피구" ){
-                var swim = ["피구", "", "라이어", "피구", "라이어", "피구", "피구", "피구","피구"]
+                var swim = ["피구", "배구", "배구", "피구", "배구", "피구", "피구", "피구","피구"]
 
                 for (var i = 0; i < 9; i++) {
                     alert("제시어를 확인하세요.");
@@ -1955,11 +1955,11 @@ function ver9(){
         }
     
     else if ( random_themes === 3 ){
-        var electronics = ["스마트폰", "노트북", "전자레인지", "태블릿PC", "TV", "로봇청소기"];
+        var electronics = ["스마트폰", "공기청정기", "전자레인지", "세탁기", "TV", "로봇청소기"];
         var random_electronics = Math.floor(Math.random() * electronics.length); // 랜덤 정수 추출
 
         if( electronics[random_electronics] === "스마트폰" ){                
-            var phone = ["스마트폰", "라이어", "스마트폰", "스마트폰", "라이어",  "스마트폰", "스마트폰", "스마트폰","라이어"]
+            var phone = ["스마트폰", "태블릿PC", "스마트폰", "스마트폰", "태블릿PC",  "스마트폰", "스마트폰", "스마트폰","태블릿PC"]
 
             for (var i = 0; i < 9; i++) {
                 alert("제시어를 확인하세요.");
@@ -1967,13 +1967,13 @@ function ver9(){
             }
         }
 
-        else if( electronics[random_electronics] === "노트북" ){
+        else if( electronics[random_electronics] === "공기청정기" ){
             
-            var notebook = ["라이어", "노트북", "라이어", "노트북", "라이어", "노트북", "노트북", "노트북","노트북"]
+            var air = ["제습기", "공기청정기", "제습기", "공기청정기", "제습기", "공기청정기", "공기청정기", "공기청정기","공기청정기"]
 
             for (var i = 0; i < 9; i++) {
                 alert("제시어를 확인하세요.");
-                alert(i+1 + "번째 당신은 " + notebook[i] + "입니다.");
+                alert(i+1 + "번째 당신은 " + air[i] + "입니다.");
             }
         }
         else if( electronics[random_electronics] === "전자레인지" ){
@@ -1985,16 +1985,16 @@ function ver9(){
                 alert(i+1 + "번째 당신은 " + junja[i] + "입니다.");
              }
         }
-        else if( electronics[random_electronics] === "태블릿PC" ){
-            var tablet = ["태블릿PC", "라이어", "태블릿PC", "라이어",  "태블릿PC", "태블릿PC", "라이어", "태블릿PC", "태블릿PC"]
+        else if( electronics[random_electronics] === "세탁기" ){
+            var wash = ["세탁기", "건조기", "세탁기", "건조기",  "세탁기", "세탁기", "건조기", "세탁기", "세탁기"]
 
             for (var i = 0; i < 9; i++) {
                 alert("제시어를 확인하세요.");
-                alert(i+1 + "번째 당신은 " + tablet[i] + "입니다.");
+                alert(i+1 + "번째 당신은 " + wash[i] + "입니다.");
              }
         }
         else if( electronics[random_eelectronics] === "TV" ){
-            var tv = ["TV", "TV", "라이어","TV", "라이어", "TV", "TV", "라이어", "TV"]
+            var tv = ["TV", "TV", "빔프로젝트","TV", "빔프로젝트", "TV", "TV", "빔프로젝트", "TV"]
 
             for (var i = 0; i < 9; i++) {
                 alert("제시어를 확인하세요.");
@@ -2098,7 +2098,7 @@ function ver10(){
              var random_bicycles = Math.floor(Math.random() * bicycles.length); // 랜덤 정수 추출
 
              if(bicycles[random_bicycles] === "자전거"){
-                var bike = ["자전거", "자전거",  "라이어", "자전거", "라이어", "자전거", "라이어", "자전거", "자전거", "자전거"]
+                var bike = ["자전거", "자전거",  "오토바이", "자전거", "오토바이", "자전거", "오토바이", "자전거", "자전거", "자전거"]
                 
                 for (var i = 0; i < 10; i++) {
                     alert("제시어를 확인하세요.");
@@ -2114,7 +2114,7 @@ function ver10(){
                 }
             }
             else if(bicycles[random_bicycles] === "비행기"){
-                var airplane = ["비행기", "비행기", "라이어", "비행기", "비행기", "라이어", "비행기", "라이어", "비행기", "비행기"]
+                var airplane = ["비행기", "비행기", "배", "비행기", "비행기", "배", "비행기", "배", "비행기", "비행기"]
                 
                 for (var i = 0; i < 10; i++) {
                     alert("제시어를 확인하세요.");
@@ -2122,7 +2122,7 @@ function ver10(){
                 }
             }
             else if(bicycles[random_bicycles] === "경찰차"){
-                var police = ["경찰차", "경찰차", "경찰차", "라이어", "경찰차", "라이어", "경찰차", "라이어", "경찰차", "경찰차"]
+                var police = ["경찰차", "경찰차", "경찰차", "소방차", "경찰차", "소방차", "경찰차", "소방차", "경찰차", "경찰차"]
                 
                 for (var i = 0; i < 10; i++) {
                     alert("제시어를 확인하세요.");
@@ -2130,7 +2130,7 @@ function ver10(){
                 }
             }
             else if(bicycles[random_bicycles] === "열기구"){
-                var balloon = ["열기구", "열기구", "열기구", "라이어", "열기구", "열기구", "라이어", "열기구", "열기구", "라이어"]
+                var balloon = ["열기구", "열기구", "열기구", "관람차", "열기구", "열기구", "관람차", "열기구", "열기구", "관람차"]
                 
                 for (var i = 0; i < 10; i++) {
                     alert("제시어를 확인하세요.");
@@ -2138,7 +2138,7 @@ function ver10(){
                 }
             }
             else if(bicycles[random_bicycles] === "킥보드"){
-                var kick = ["킥보드", "킥보드", "킥보드", "라이어", "킥보드", "킥보드", "킥보드", "라이어", "킥보드", "라이어"]
+                var kick = ["킥보드", "킥보드", "킥보드", "스케이트", "킥보드", "킥보드", "킥보드", "스케이트", "킥보드", "스케이트"]
                 
                 for (var i = 0; i < 10; i++) {
                     alert("제시어를 확인하세요.");
@@ -2207,7 +2207,7 @@ function ver10(){
             }
 
             else if(foods[random_foods] === "잡채"){
-                var jabchae = ["잡채", "잡채", "라이어", "잡채", "잡채", "잡채", "라이어", "잡채", "라이어", "잡채"]
+                var jabchae = ["잡채", "잡채", "볶음우동", "잡채", "잡채", "잡채", "볶음우동", "잡채", "볶음우동", "잡채"]
                 
                 for (var i = 0; i < 10; i++) {
                     alert("제시어를 확인하세요.");
@@ -2216,7 +2216,7 @@ function ver10(){
             }
             
             else if(foods[random_foods] === "돈가스"){
-                var dongas = ["돈가스", "돈가스", "라이어", "돈가스", "튀김", "돈가스", "돈가스", "돈가스", "튀김", "돈가스"]
+                var dongas = ["돈가스", "돈가스", "튀김", "돈가스", "튀김", "돈가스", "돈가스", "돈가스", "튀김", "돈가스"]
                 
                 for (var i = 0; i < 10; i++) {
                     alert("제시어를 확인하세요.");
@@ -2265,7 +2265,7 @@ function ver10(){
                  }
             }
             else if( exercises[random_exercises] === "피구" ){
-                var swim = ["피구", "라이어", "피구", "라이어", "피구", "라이어", "피구", "피구", "피구","피구"]
+                var swim = ["피구", "배구", "피구", "배구", "피구", "배구", "피구", "피구", "피구","피구"]
 
                 for (var i = 0; i < 10; i++) {
                     alert("제시어를 확인하세요.");
@@ -2300,11 +2300,11 @@ function ver10(){
         }
     
     else if ( random_themes === 3 ){
-        var electronics = ["스마트폰", "노트북", "전자레인지", "태블릿PC", "TV", "로봇청소기"];
+        var electronics = ["스마트폰", "공기청정기", "전자레인지", "세탁기", "TV", "로봇청소기"];
         var random_electronics = Math.floor(Math.random() * electronics.length); // 랜덤 정수 추출
 
         if( electronics[random_electronics] === "스마트폰" ){                
-            var phone = ["스마트폰", "스마트폰", "라이어", "스마트폰", "스마트폰", "라이어", "스마트폰", "스마트폰", "스마트폰","라이어"]
+            var phone = ["스마트폰", "스마트폰", "태블릿PC", "스마트폰", "스마트폰", "태블릿PC", "스마트폰", "스마트폰", "스마트폰", "태블릿PC"]
 
             for (var i = 0; i < 10; i++) {
                 alert("제시어를 확인하세요.");
@@ -2312,13 +2312,13 @@ function ver10(){
             }
         }
 
-        else if( electronics[random_electronics] === "노트북" ){
+        else if( electronics[random_electronics] === "공기청정기" ){
             
-            var notebook = ["라이어", "노트북", "라이어", "노트북", "노트북", "라이어", "노트북", "노트북", "노트북","노트북"]
+            var air = ["제습기", "공기청정기", "제습기", "공기청정기", "공기청정기", "제습기", "공기청정기", "공기청정기", "공기청정기","공기청정기"]
 
             for (var i = 0; i < 10; i++) {
                 alert("제시어를 확인하세요.");
-                alert(i+1 + "번째 당신은 " + notebook[i] + "입니다.");
+                alert(i+1 + "번째 당신은 " + air[i] + "입니다.");
             }
         }
         else if( electronics[random_electronics] === "전자레인지" ){
@@ -2331,16 +2331,16 @@ function ver10(){
                 alert(i+1 + "번째 당신은 " + junja[i] + "입니다.");
              }
         }
-        else if( electronics[random_electronics] === "태블릿PC" ){
-            var tablet = ["태블릿PC", "라이어", "태블릿PC", "라이어", "태블릿PC", "태블릿PC", "태블릿PC", "라이어", "태블릿PC", "태블릿PC"]
+        else if( electronics[random_electronics] === "세탁기" ){
+            var wash = ["세탁기", "건조기", "세탁기", "건조기", "세탁기", "세탁기", "세탁기", "건조기", "세탁기", "세탁기"]
 
             for (var i = 0; i < 10; i++) {
                 alert("제시어를 확인하세요.");
-                alert(i+1 + "번째 당신은 " + tablet[i] + "입니다.");
+                alert(i+1 + "번째 당신은 " + wash[i] + "입니다.");
              }
         }
         else if( electronics[random_eelectronics] === "TV" ){
-            var tv = ["TV", "TV", "라이어", "TV", "라이어", "TV", "TV", "TV", "라이어", "TV"]
+            var tv = ["TV", "TV", "빔프로젝트", "TV", "빔프로젝트", "TV", "TV", "TV", "빔프로젝트", "TV"]
 
             for (var i = 0; i < 10; i++) {
                 alert("제시어를 확인하세요.");
@@ -2390,7 +2390,7 @@ function ver10(){
                 }
 
             else if( fruits[random_fruits] === "귤") {
-                var guul = ["귤", "귤", "귤", "오렌지", "귤", "라이어", "오렌지", "귤", "오렌지", "귤"]
+                var guul = ["귤", "귤", "귤", "오렌지", "귤", "오렌지", "오렌지", "귤", "오렌지", "귤"]
 
                 for (var i = 0; i < 10; i++) {
                     alert("제시어를 확인하세요.");
