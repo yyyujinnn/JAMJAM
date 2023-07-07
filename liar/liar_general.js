@@ -287,7 +287,7 @@ function ver4(){
     else if ( random_themes === 4) {
             var fruits = ["딸기", "자몽", "두리안", "귤", "리치", "잭프루트" ];
             var random_fruits = Math.floor(Math.random() * fruits.length); // 랜덤 정수 추출
-        
+
             if( fruits[random_fruits] === "딸기") {
                 var strawberry = ["딸기", "딸기", "딸기", "라이어"]
 
@@ -2414,5 +2414,25 @@ function ver10(){
                     alert(i+1 + "번째 당신은 " + jack[i] + "입니다.");
                   }
             }
-        }
+        }        
+}
+
+function show() {
+    example.style.display='block'; // 제시어 보기
+
+    if(random_themes === 0 ) {
+        example.innerHTML = "제시어 : " + bicycles[random_bicycles]
+    }
+    else if(random_themes === 1 ) {
+        example.innerHTML = "제시어 : " + foods[random_foods]
+    }
+    else if(random_themes === 2 ) {
+        example.innerHTML = "제시어 : " + exercises[random_exercises]
+    }
+    else if(random_themes === 3 ) {
+        example.innerHTML = "제시어 : " + electronics[random_electronics]
+    }
+    else if(random_themes === 4 ) {
+        example.innerHTML = "제시어 : " + fruits[random_fruits]
+    }
 }
