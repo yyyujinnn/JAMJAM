@@ -59,7 +59,9 @@ button {
         padding: 10px 20px;
         color: black;
 }
-
+.end{
+    width: 50%;
+}
 div {margin: 20px;}
 
 /* Tablet */

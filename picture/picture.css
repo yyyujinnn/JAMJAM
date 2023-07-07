@@ -59,6 +59,9 @@ button {
         background-color: #fff8dc; 
         color: black;
 }
+.end{
+        width: 50%;
+}
 div {margin: 20px;}
 
 .count {padding: 20px;}
