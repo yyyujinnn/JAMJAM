@@ -1,24 +1,20 @@
-// 게임 시작 전 카운트다운 3,2,1,start
-//let stringArr = ["3","2","1","START"];
-//let selectString = stringArr[Math.random() * stringArr.length];
-
-// 메뉴
-
-
 
 $(document).ready(function() {
 // 게임시작 버튼 클릭 이벤트
 $("#btn").click(function() {
     // 게임영역 초기화
     $("#gameArea").empty();
+    
+    // 정답카운트 초기화
+    $("#resultCount").val("0");
 
     // 랜덤난수 부여
     var randomNumber = Math.floor(Math.random() * 101);
     $("#randomNumber").val(randomNumber);
 
     // 게임 영역 생성
-    $("#gameArea").append("<p><br>0 ~ 100까지 랜덤한 숫자를 생성되었습니다.</p>");
-    $("#gameArea").append("<p>숫자를 입력하여 맞춰주세요.</p>");
+    $("#gameArea").append("<p><br>0 ~ 100 중 숫자를 랜덤 생성했습니다.</p>");
+    $("#gameArea").append("<p>숫자를 입력하여 맞춰보세요.</p>");
     $("#gameArea").append("<input type='text' id='txtAnswer'></input>  ");
     $("#gameArea").append("<button id='btnAnswer' onclick='randomAnswerSubmission();'>정답제출</button>");
 
@@ -27,13 +23,14 @@ $("#btn").click(function() {
 
 // 정답제출 함수
 function randomAnswerSubmission() {
-var randomValue = $("#randomNumber").val();     // 랜덤난수
-var txtAnswer = $("#txtAnswer").val();          // 입력한 정답
-var resultCount = $("#resultCount").val();
+    var randomValue = $("#randomNumber").val();     // 랜덤난수
+    var txtAnswer = $("#txtAnswer").val();          // 입력한 정답
+    var resultCount = $("#resultCount").val();
 
-// 정답
-if(randomValue == txtAnswer) {
-    $("#gameArea").append("<p>정답은 " + randomValue + '입니다.<br> "' + resultCount + '번"만에 정답을 맞췄습니다.</p>');                
+   // 정답
+   if(randomValue == txtAnswer) {
+    $("#gameArea").append("<p>정답은 " + randomValue + '입니다.<br> "' + resultCount + '번"만에 정답을 맞췄습니다.</p>'); 
+    document.getElementById("btn").innerHTML = "다시 시작";            
 } 
 // 오답(작은 수 입력)
 else if (Number(randomValue) > Number(txtAnswer)) {

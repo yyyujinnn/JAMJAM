@@ -33,11 +33,11 @@ function start()
 
     var word = document.getElementById("word");
     var random_words = Math.floor(Math.random() * words.length); // 랜덤 정수 추출
-        
+
     word.innerHTML = words[random_words];
     
     document.getElementById("start").innerHTML = "다음문제";
-
+    
     
     //setInterval(함수, 시간) : 주기적인 실행
     var timer = setInterval( function() {
@@ -49,7 +49,7 @@ function start()
 
         var result = ["죽 마 고 우", "고 등 학 생", "아 프 리 카", "스 나 이 퍼", 
 
-        "도 라 에 몽", "딸 기 우 유", "모 래 시 계, 모 래 사 장, 모 래 시 계", "바 람 개 비, 바 람 둥 이", "블 루 오 션, 블 루 투 스", 
+        "도 라 에 몽", "딸 기 우 유", "모 래 시 계, 모 래 사 장", "바 람 개 비, 바 람 둥 이", "블 루 오 션, 블 루 투 스", 
         "아 이 크 림, 아 이 패 드", "중 간 고 사", "기 말 고 사", "인 피 니 트", "데 이 식 스", 
         
         "초 코 우 유, 초 코 에 몽", "사 제 동 행, 사 제 지 간", "신 서 유 기", "카 푸 치 노", "포 스 트 잇",
