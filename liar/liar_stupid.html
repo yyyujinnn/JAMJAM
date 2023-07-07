@@ -60,6 +60,7 @@
         <div class="game-content">
             <h3 id="count">게임 인원 정하기</h3>
             <p class="theme" id="theme">제시어 주제</p>
+            <button type="button" id="example" onclick="show()">제시어 보기</button>
             <div class="count" id="btn">
                 <button type="button" id="btn4" onclick="ver4()"> 4 </button>
                 <button type="button" id="btn5" onclick="ver5()"> 5 </button>
@@ -71,7 +72,13 @@
                 <button type="button" id="btn9" onclick="ver9()"> 9 </button>
                 <button type="button" id="btn10" onclick="ver10()"> 10 </button>
             </div>
-            <p class= "example" id="example">제시어</p>
+            <br>
+            <div>
+                <button type="button" class="restart" onclick="location.href='liar_general.html'"> 다시 시작</button>
+            </div>
+            <div>
+                <button type="button" class="end" onclick="location.href='GameChoose.html'"> 다른 게임 선택 </button>
+            </div>
 
         </div>
     </body>

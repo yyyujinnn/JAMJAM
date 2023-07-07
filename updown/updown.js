@@ -34,12 +34,18 @@ function randomAnswerSubmission() {
 } 
 // 오답(작은 수 입력)
 else if (Number(randomValue) > Number(txtAnswer)) {
+    // 정답 입력칸 비우기
+    $("#txtAnswer").val('');
+    // 시도횟수 카운트
     resultCount = Number(resultCount) + 1;
     $("#resultCount").val(String(resultCount));
     $("#gameArea").append("<p>정답은 " + txtAnswer + "보다 " +  "<span style = color:red>큰 수 </span>" + "입니다.</p>");   
 } 
 // 오답(큰 수 입력)
 else if (Number(randomValue) < Number(txtAnswer)) {
+    // 정답 입력칸 비우기
+    $("#txtAnswer").val('');
+    // 시도횟수 카운트
     resultCount = Number(resultCount) + 1;
     $("#resultCount").val(String(resultCount));
     $("#gameArea").append("<p>정답은 " + txtAnswer + '보다 ' + "<span style = color:blue>작은 수 </span>" + "입니다.</p>");  
