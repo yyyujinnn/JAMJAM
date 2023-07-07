@@ -19,6 +19,26 @@ function ver4(){
     
     theme.style.display ='block'; //제시어주제 칸 보이기
     theme.innerHTML = "제시어 주제 : " + themes[random_themes];
+    // example.style.display='block'; // 제시어 보기
+
+    // function show() {
+    //     if(random_themes === 0 ) {
+    //         document.getElementById("example").innerHTML = "제시어 : " + bicycles[random_bicycles]
+    //     }
+    //     else if(random_themes === 1 ) {
+    //         document.getElementById("example").innerHTML = "제시어 : " + foods[random_foods]
+    //     }
+    //     else if(random_themes === 2 ) {
+    //         document.getElementById("example").innerHTML = "제시어 : " + exercises[random_exercises]
+    //     }
+    //     else if(random_themes === 3 ) {
+    //         document.getElementById("example").innerHTML = "제시어 : " + electronics[random_electronics]
+    //     }
+    //     else if(random_themes === 4 ) {
+    //         document.getElementById("example").innerHTML = "제시어 : " + fruits[random_fruits]
+    //     }
+    // }
+    
 
     if(random_themes === 0 ){
              var bicycles = ["자전거", "택시", "비행기", "경찰차",
@@ -344,6 +364,7 @@ function ver4(){
             }
                 
         }
+    
 
 //인원수 5명일때 일반4 라이어1
 function ver5(){
@@ -2415,24 +2436,4 @@ function ver10(){
                   }
             }
         }        
-}
-
-function show() {
-    example.style.display='block'; // 제시어 보기
-
-    if(random_themes === 0 ) {
-        example.innerHTML = "제시어 : " + bicycles[random_bicycles]
-    }
-    else if(random_themes === 1 ) {
-        example.innerHTML = "제시어 : " + foods[random_foods]
-    }
-    else if(random_themes === 2 ) {
-        example.innerHTML = "제시어 : " + exercises[random_exercises]
-    }
-    else if(random_themes === 3 ) {
-        example.innerHTML = "제시어 : " + electronics[random_electronics]
-    }
-    else if(random_themes === 4 ) {
-        example.innerHTML = "제시어 : " + fruits[random_fruits]
-    }
 }
