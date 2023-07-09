@@ -44,6 +44,7 @@ input[id="menuicon"]:checked + label + div {right:0;}
 
 .intro p{
         margin: 10px;
+        font-size : 18px;
 }
 
 section {margin-top: 20px; text-align: center;
@@ -60,7 +61,7 @@ button {
         color: black;
 }
 .end{
-        width: 50%;
+        width: 150px;
 }
 div {margin: 20px;}
 
