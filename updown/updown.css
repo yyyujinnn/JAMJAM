@@ -29,7 +29,7 @@ input[id="menuicon"]:checked + label + div {right:0;}
 .sidebar a{
     font-family: 'Jua', sans-serif; 
     text-decoration: none; 
-    line-height: 2.6em;
+    line-height: 3em;
     color: black;
     font-size: 18px;
 }
@@ -88,3 +88,10 @@ div {margin: 20px;}
             height:40px;
            }
     }
+    
+/*Galaxy*/
+@media (min-height:850px){
+    .sidebar a{
+        line-height: 2.6em;
+    }
+}
