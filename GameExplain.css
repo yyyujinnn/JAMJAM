@@ -28,7 +28,7 @@ input[id="menuicon"]:checked + label + div {right:0;}
 .sidebar a{
     font-family: 'Jua', sans-serif; 
     text-decoration: none; 
-    line-height: 2.8em;
+    line-height: 2.7em;
     color: black;
     font-size: 18px;
 }
