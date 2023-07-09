@@ -103,7 +103,7 @@ input[id="menuicon"]:checked + label + div {right:0;}
 }
 
 /*Galaxy*/
-@media (min-height:850px){
+@media (min-height:740px){
     .sidebar a{
         line-height: 2.6em;
     }
