@@ -19,6 +19,8 @@ function ver4(){
     
     theme.style.display ='block'; //제시어주제 칸 보이기
     theme.innerHTML = "제시어 주제 : " + themes[random_themes];
+    
+    babo.style.display ='block'; //바보라이어 확인 버튼 보이기
 
     if(random_themes === 0 ){
              var bicycles = ["자전거", "택시", "비행기", "경찰차",
@@ -32,7 +34,10 @@ function ver4(){
                     alert("제시어를 확인하세요.");
                     alert(i+1 + "번째 당신은 " + bike[i] + "입니다.");
                 }
+                var w = function babocheck() { return check.innerHTML = '바보라이어는 2번째입니다.' ;}
+                    return w;
             }
+            
             else if(bicycles[random_bicycles] === "택시"){
                 var taxi = ["택시", "버스", "택시", "택시"]
                 
@@ -40,6 +45,8 @@ function ver4(){
                     alert("제시어를 확인하세요.");
                     alert(i+1 + "번째 당신은 " + taxi[i] + "입니다.");
                 }
+                var w = function babocheck() { return check.innerHTML = '바보라이어는 2번째입니다.'; }
+                    return w;
             }
             else if(bicycles[random_bicycles] === "비행기"){
                 var airplane = ["비행기", "비행기", "배", "비행기"]
@@ -47,7 +54,9 @@ function ver4(){
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
                     alert(i+1 + "번째 당신은 " + airplane[i] + "입니다.");
-                }
+                 }
+                 var w = function babocheck() { return check.innerHTML = '바보라이어는 3번째입니다.'; }
+                 return w;
             }
             else if(bicycles[random_bicycles] === "경찰차"){
                 var police = ["경찰차", "경찰차", "소방차", "경찰차"]
@@ -56,22 +65,28 @@ function ver4(){
                     alert("제시어를 확인하세요.");
                     alert(i+1 + "번째 당신은 " + police[i] + "입니다.");
                 }
+                var w = function babocheck() { return check.innerHTML = '바보라이어는 3번째입니다.'; }
+                return w;
             }
             else if(bicycles[random_bicycles] === "열기구"){
                 var balloon = ["열기구", "열기구", "관람차", "열기구"]
                 
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
-                    alert(i+1 + "번째 당신은 " + balloon[i] + "입니다.");
+                    alert(i+1 + "번째 당신은 " + balloon[i] + "입니다."); 
                 }
+                var w = function babocheck() { return check.innerHTML = '바보라이어는 3번째입니다.'; }
+                return w;
             }
             else if(bicycles[random_bicycles] === "킥보드"){
                 var kick = ["킥보드", "킥보드", "킥보드", "스케이트"]
                 
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
-                    alert(i+1 + "번째 당신은 " + kick[i] + "입니다.");
+                    alert(i+1 + "번째 당신은 " + kick[i] + "입니다."); 
                 }
+                var w = function babocheck() { return check.innerHTML = '바보라이어는 4번째입니다.'; }
+                    return w;
             }
             else if(bicycles[random_bicycles] === "구급차"){
                 var emergency = ["구급차", "구급차", "구급차", "소방차"]
@@ -79,7 +94,9 @@ function ver4(){
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
                     alert(i+1 + "번째 당신은 " + emergency[i] + "입니다.");
-                }
+                }                 
+                var w = function babocheck() { return check.innerHTML = '바보라이어는 4번째입니다.'; }
+                    return w;
             }
         }
 
@@ -94,7 +111,10 @@ function ver4(){
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
                     alert(i+1 + "번째 당신은 " + gimbokbab[i] + "입니다.");
-                }
+                }                 
+                // function babocheck() {
+                //     check.innerHTML = '바보라이어는 2번째입니다.' ;
+                // }
             }
 
             else if(foods[random_foods] === "피자"){
@@ -103,7 +123,10 @@ function ver4(){
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
                     alert(i+1 + "번째 당신은 " + pizza[i] + "입니다.");
-                }
+                }                 
+                // function babocheck() {
+                //     check.innerHTML = '바보라이어는 3번째입니다.' ;
+                // }
             }
 
             else if(foods[random_foods] === "치킨"){
@@ -112,7 +135,10 @@ function ver4(){
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
                     alert(i+1 + "번째 당신은 " + chicken[i] + "입니다.");
-                }
+                }                 
+                // function babocheck() {
+                //     check.innerHTML = '바보라이어는 3번째입니다.' ;
+                // }
             }
 
             else if(foods[random_foods] === "보쌈"){
@@ -121,7 +147,10 @@ function ver4(){
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
                     alert(i+1 + "번째 당신은 " + bossam[i] + "입니다.");
-                }
+                }                 
+                // function babocheck() {
+                //     check.innerHTML = '바보라이어는 1번째입니다.' ;
+                // }
             }
 
             else if(foods[random_foods] === "케이크") {
@@ -130,7 +159,10 @@ function ver4(){
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
                     alert(i+1 + "번째 당신은 " + cake[i] + "입니다.");
-                }
+                }                 
+                // function babocheck() {
+                //     check.innerHTML = '바보라이어는 2번째입니다.' ;
+                // }
             }
 
             else if(foods[random_foods] === "잡채"){
@@ -139,7 +171,10 @@ function ver4(){
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
                     alert(i+1 + "번째 당신은 " + jabchae[i] + "입니다.");
-                }
+                }                 
+                // function babocheck() {
+                //     check.innerHTML = '바보라이어는 4번째입니다.' ;
+                // }
             }
             
             else if(foods[random_foods] === "돈가스"){
@@ -148,7 +183,10 @@ function ver4(){
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
                     alert(i+1 + "번째 당신은 " + dongas[i] + "입니다.");
-                }
+                }                 
+                // function babocheck() {
+                //     check.innerHTML = '바보라이어는 1번째입니다.' ;
+                // }
             }
             else if(foods[random_foods] === "떡볶이"){
                 var topoki = ["떡볶이", "떡볶이", "떡볶이", "떡꼬치"]
@@ -156,7 +194,10 @@ function ver4(){
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
                     alert(i+1 + "번째 당신은 " + topoki[i] + "입니다.");
-                }
+                }                 
+                // function babocheck() {
+                //     check.innerHTML = '바보라이어는 4번째입니다.' ;
+                // }
             }
         }
                     
@@ -170,7 +211,10 @@ function ver4(){
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
                     alert(i+1 + "번째 당신은 " + baseball[i] + "입니다.");
-                }
+                }                 
+                // function babocheck() {
+                //     check.innerHTML = '바보라이어는 1번째입니다.' ;
+                // }
             }
 
             else if( exercises[random_exercises] === "축구" ){
@@ -180,7 +224,10 @@ function ver4(){
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
                     alert(i+1 + "번째 당신은 " + football[i] + "입니다.");
-                }
+                }                 
+                // function babocheck() {
+                //     check.innerHTML = '바보라이어는 1번째입니다.' ;
+                // }
             }
             else if( exercises[random_exercises] === "수영" ){
                 
@@ -189,7 +236,10 @@ function ver4(){
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
                     alert(i+1 + "번째 당신은 " + swim[i] + "입니다.");
-                 }
+                }                  
+                // function babocheck() {
+                //     check.innerHTML = '바보라이어는 3번째입니다.' ;
+                // }
             }
             else if( exercises[random_exercises] === "피구" ){
                 var swim = ["피구", "배구", "피구","피구"]
@@ -197,7 +247,10 @@ function ver4(){
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
                     alert(i+1 + "번째 당신은 " + swim[i] + "입니다.");
-                 }
+                }                  
+                // function babocheck() {
+                //     check.innerHTML = '바보라이어는 1번째입니다.' ;
+                // }
             }
             else if( exercises[random_exercises] === "배드민턴" ){
                 var swim = ["배드민턴", "배드민턴", "테니스","배드민턴"]
@@ -205,7 +258,10 @@ function ver4(){
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
                     alert(i+1 + "번째 당신은 " + swim[i] + "입니다.");
-                 }
+                }                  
+                // function babocheck() {
+                //     check.innerHTML = '바보라이어는 3번째입니다.' ;
+                // }
             }
             else if( exercises[random_exercises] === "줄넘기" ){
                 var line = ["높이뛰기", "줄넘기", "줄넘기","줄넘기"]
@@ -213,7 +269,10 @@ function ver4(){
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
                     alert(i+1 + "번째 당신은 " + line[i] + "입니다.");
-                 }
+                }                  
+                // function babocheck() {
+                //     check.innerHTML = '바보라이어는 1번째입니다.' ;
+                // }
             }
             else if( exercises[random_exercises] === "컬링" ){
                 var curling = ["컬링", "컬링", "볼링","컬링"]
@@ -221,7 +280,10 @@ function ver4(){
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
                     alert(i+1 + "번째 당신은 " + curling[i] + "입니다.");
-                 }
+                }                  
+                // function babocheck() {
+                //     check.innerHTML = '바보라이어는 3번째입니다.' ;
+                // }
             }
 
         }
@@ -236,7 +298,10 @@ function ver4(){
             for (var i = 0; i < 4; i++) {
                 alert("제시어를 확인하세요.");
                 alert(i+1 + "번째 당신은 " + phone[i] + "입니다.");
-            }
+            }             
+                // function babocheck() {
+                //     check.innerHTML = '바보라이어는 4번째입니다.' ;
+                // }
         }
 
         else if( electronics[random_electronics] === "공기청정기" ){
@@ -247,6 +312,10 @@ function ver4(){
                 alert("제시어를 확인하세요.");
                 alert(i+1 + "번째 당신은 " + air[i] + "입니다.");
             }
+             
+                // function babocheck() {
+                //     check.innerHTML = '바보라이어는 1번째입니다.' ;
+                // }
         }
         else if( electronics[random_electronics] === "전자레인지" ){
             
@@ -255,7 +324,10 @@ function ver4(){
             for (var i = 0; i < 4; i++) {
                 alert("제시어를 확인하세요.");
                 alert(i+1 + "번째 당신은 " + junja[i] + "입니다.");
-             }
+            }              
+                // function babocheck() {
+                //     check.innerHTML = '바보라이어는 3번째입니다.' ;
+                // }
         }
         else if( electronics[random_electronics] === "세탁기" ){
             var wash = ["세탁기", "건조기", "세탁기","세탁기"]
@@ -263,7 +335,10 @@ function ver4(){
             for (var i = 0; i < 4; i++) {
                 alert("제시어를 확인하세요.");
                 alert(i+1 + "번째 당신은 " + wash[i] + "입니다.");
-             }
+            }              
+                // function babocheck() {
+                //     check.innerHTML = '바보라이어는 2번째입니다.' ;
+                // }
         }
         else if( electronics[random_eelectronics] === "TV" ){
             var tv = ["TV", "TV", "빔프로젝트","TV"]
@@ -271,7 +346,10 @@ function ver4(){
             for (var i = 0; i < 4; i++) {
                 alert("제시어를 확인하세요.");
                 alert(i+1 + "번째 당신은 " + tv[i] + "입니다.");
-             }
+            }              
+                // function babocheck() {
+                //     check.innerHTML = '바보라이어는 3번째입니다.' ;
+                // }
         }
         else if( electronics[random_electronics] === "로봇 청소기" ){
             var cleaner = ["서빙 로봇", "로봇 청소기", "로봇 청소기","로봇 청소기"]
@@ -279,7 +357,10 @@ function ver4(){
             for (var i = 0; i < 4; i++) {
                 alert("제시어를 확인하세요.");
                 alert(i+1 + "번째 당신은 " + cleaner[i] + "입니다.");
-             }
+            }              
+                // function babocheck() {
+                //     check.innerHTML = '바보라이어는 1번째입니다.' ;
+                // }
         }
 
     }
@@ -294,7 +375,10 @@ function ver4(){
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
                     alert(i+1 + "번째 당신은 " + strawberry[i] + "입니다.");
-                  }
+                }                   
+                // function babocheck() {
+                //     check.innerHTML = '바보라이어는 4번째입니다.' ;
+                // }
             }
 
             else if ( fruits[random_fruits] === "자몽") {
@@ -303,7 +387,10 @@ function ver4(){
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
                     alert(i+1 + "번째 당신은 " + grapefruit[i] + "입니다.");
-                  }
+                }                   
+                // function babocheck() {
+                //     check.innerHTML = '바보라이어는 2번째입니다.' ;
+                // }
             }
 
             else if( fruits[random_fruits] === "두리안") {
@@ -312,8 +399,11 @@ function ver4(){
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
                     alert(i+1 + "번째 당신은 " + durian[i] + "입니다.");
-                  }
-                }
+                  }                   
+                // function babocheck() {
+                //     check.innerHTML = '바보라이어는 1번째입니다.' ;
+                // }
+            }
 
             else if( fruits[random_fruits] === "귤") {
                 var guul = ["귤", "오렌지", "귤", "귤"]
@@ -321,8 +411,11 @@ function ver4(){
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
                     alert(i+1 + "번째 당신은 " + guul[i] + "입니다.");
-                  }
-                }
+                  }                   
+                // function babocheck() {
+                //     check.innerHTML = '바보라이어는 2번째입니다.' ;
+                // }
+            }
                 
             else if( fruits[random_fruits] === "리치") {
                  var rich = ["용안", "리치", "리치", "리치"]
@@ -330,8 +423,10 @@ function ver4(){
                 for (var i = 0; i < 4; i++) {
                     alert("제시어를 확인하세요.");
                     alert(i+1 + "번째 당신은 " + rich[i] + "입니다.");
-                  }
-                }
+                }                 
+                // function babocheck() {
+                //     check.innerHTML = '바보라이어는 1번째입니다.' ;
+                // }
             }
             
             else if( fruits[random_fruits] === "잭푸르트") {
@@ -341,9 +436,13 @@ function ver4(){
                     alert("제시어를 확인하세요.");
                     alert(i+1 + "번째 당신은 " + jack[i] + "입니다.");
                   }
+                // function babocheck() {
+                //     check.innerHTML = '바보라이어는 2번째입니다.' ;
+                // }
             }
                 
         }
+    }
 
 //인원수 5명일때 일반4 라이어1
 function ver5(){
@@ -364,7 +463,7 @@ function ver5(){
     var theme = document.getElementById("theme");
     var random_themes = Math.floor(Math.random() * themes.length); // 랜덤 정수 추출
     
-    theme.style.display ='block'; //제시어주제 칸 보이기
+    theme.style.display ='block'; 
     theme.innerHTML = "제시어 주제 : " + themes[random_themes];
 
     if(random_themes === 0 ){
@@ -711,7 +810,7 @@ function ver6(){
     var theme = document.getElementById("theme");
     var random_themes = Math.floor(Math.random() * themes.length); // 랜덤 정수 추출
     
-    theme.style.display ='block'; //제시어주제 칸 보이기
+    theme.style.display ='block'; 
     theme.innerHTML = "제시어 주제 : " + themes[random_themes];
 
     if(random_themes === 0 ){
@@ -1056,7 +1155,7 @@ function ver7(){
     var theme = document.getElementById("theme");
     var random_themes = Math.floor(Math.random() * themes.length); // 랜덤 정수 추출
     
-    theme.style.display ='block'; //제시어주제 칸 보이기
+    theme.style.display ='block'; 
     theme.innerHTML = "제시어 주제 : " + themes[random_themes];
 
     if(random_themes === 0 ){
@@ -1401,7 +1500,7 @@ function ver8(){
     var theme = document.getElementById("theme");
     var random_themes = Math.floor(Math.random() * themes.length); // 랜덤 정수 추출
     
-    theme.style.display ='block'; //제시어주제 칸 보이기
+    theme.style.display ='block'; 
     theme.innerHTML = "제시어 주제 : " + themes[random_themes];
 
     if(random_themes === 0 ){
@@ -1746,7 +1845,7 @@ function ver9(){
     var theme = document.getElementById("theme");
     var random_themes = Math.floor(Math.random() * themes.length); // 랜덤 정수 추출
     
-    theme.style.display ='block'; //제시어주제 칸 보이기
+    theme.style.display ='block'; 
     theme.innerHTML = "제시어 주제 : " + themes[random_themes];
 
     if(random_themes === 0 ){
@@ -2089,7 +2188,7 @@ function ver10(){
     var theme = document.getElementById("theme");
     var random_themes = Math.floor(Math.random() * themes.length); // 랜덤 정수 추출
     
-    theme.style.display ='block'; //제시어주제 칸 보이기
+    theme.style.display ='block'; 
     theme.innerHTML = "제시어 주제 : " + themes[random_themes];
 
     if(random_themes === 0 ){
